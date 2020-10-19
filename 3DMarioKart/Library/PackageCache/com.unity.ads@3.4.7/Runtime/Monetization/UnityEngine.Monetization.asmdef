@@ -1,0 +1,16 @@
+{
+    "name": "UnityEngine.Monetization",
+    "references": [
+        "UnityEngine.Advertisements"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!ADS_ASSET_STORE_PACKAGE_DETECTED"
+    ]
+}

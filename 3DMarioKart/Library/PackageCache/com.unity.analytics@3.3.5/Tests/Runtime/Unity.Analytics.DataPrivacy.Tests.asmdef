@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Analytics.DataPrivacy.Tests",
+    "references": [
+        "Unity.Analytics.DataPrivacy"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "allowUnsafeCode": false
+}

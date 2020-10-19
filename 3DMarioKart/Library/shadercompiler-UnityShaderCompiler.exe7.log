@@ -1,0 +1,6 @@
+Base path: 'C:/buildslave/unity/build/build/WindowsEditor/Data', plugins path ''
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=18299 outsize=10442 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=5435 outsize=6437 ok=1
