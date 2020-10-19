@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2019-09-21T14:18:05Z</created>
+		<modified>2019-09-21T14:18:05Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="MiiKanban_LUIGI-image" name="MiiKanban_LUIGI">
+			<init_from>
+				<ref>MiiKanban_LUIGI.png</ref>
+			</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="MiiKanban_m">
+			<instance_effect url="#MiiKanban_m-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="MiiKanban_m-fx" name="MiiKanban_m">
+			<profile_COMMON>
+				<newparam sid="MiiKanban_LUIGI-surface">
+					<surface type="2D">
+						<init_from>
+							<ref>MiiKanban_LUIGI-image</ref>
+						</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="MiiKanban_LUIGI-sampler">
+					<sampler2D>
+						<source>MiiKanban_LUIGI-surface</source>
+						<instance_image url="#MiiKanban_LUIGI-image" />
+						<wrap_s>WRAP</wrap_s>
+						<wrap_t>WRAP</wrap_t>
+						<minfilter>LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse>
+							<texture texture="MiiKanban_LUIGI-sampler" texcoord="TEXCOORD0" />
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0" name="polygon0">
+			<mesh>
+				<source id="polygon0_Positions">
+					<float_array id="polygon0_PosArr" count="120">-16840 3550 41380 -15840 3550 41380 -16840 4550 41380 -15840 4550 41380 -16780 3550 42030 -16780 4550 42030 -15780 3550 42030 -15780 4550 42030 -12166.91 3188.754 -6578.339 -11527.51 3188.754 -6005.557 -12166.91 4047.189 -6578.339 -11527.51 4047.189 -6005.557 -12216.91 3168.754 -6488.339 -12216.91 4027.189 -6488.339 -11577.51 3168.754 -5915.557 -11577.51 4027.189 -5915.557 -11016.91 3188.754 -5558.34 -10377.51 3188.754 -4985.558 -11016.91 4047.189 -5558.34 -10377.51 4047.189 -4985.558 -11076.91 3168.754 -5478.34 -11076.91 4027.189 -5478.34 -10437.51 3168.754 -4905.558 -10437.51 4027.189 -4905.558 -5654.006 3508.754 -5612.124 -5040.419 3508.754 -5011.771 -5654.006 4367.188 -5612.124 -5040.419 4367.188 -5011.771 -5734.354 3508.754 -5552.449 -5734.354 4367.188 -5552.449 -5120.767 3508.754 -4952.097 -5120.767 4367.188 -4952.097 -4574.006 3508.754 -4552.124 -3960.419 3508.754 -3951.771 -4574.006 4367.188 -4552.124 -3960.419 4367.188 -3951.771 -4644.354 3508.754 -4482.449 -4644.354 4367.188 -4482.449 -4030.767 3508.754 -3882.097 -4030.767 4367.188 -3882.097</float_array>
+					<technique_common>
+						<accessor source="#polygon0_PosArr" count="40" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Colors0">
+					<float_array id="polygon0_ColorArr0" count="4">0.4980392 0.4980392 0.4980392 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_ColorArr0" count="1" stride="4">
+							<param name="R" type="float" />
+							<param name="G" type="float" />
+							<param name="B" type="float" />
+							<param name="A" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs0">
+					<float_array id="polygon0_UVArr0" count="32">0.4960938 0.5039063 0.00390625 0.5039063 0.4960938 0.9960938 0.00390625 0.9960938 0.9960938 0.5039063 0.5039063 0.5039063 0.9960938 0.9960938 0.5039063 0.9960938 0.4960938 0.00390625 0.00390625 0.00390625 0.4960938 0.4960938 0.00390625 0.4960938 0.9960938 0.00390625 0.5039063 0.00390625 0.9960938 0.4960938 0.5039063 0.4960938</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr0" count="16" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0_Vertices">
+					<input semantic="POSITION" source="#polygon0_Positions" />
+				</vertices>
+				<triangles material="MiiKanban_m" count="20">
+					<input semantic="VERTEX" source="#polygon0_Vertices" offset="0" />
+					<input semantic="COLOR" source="#polygon0_Colors0" set="0" offset="1" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs0" set="0" offset="2" />
+					<p>2 0 2 1 0 1 0 0 0 3 0 3 1 0 1 2 0 2 6 0 0 5 0 3 4 0 1 7 0 2 5 0 3 6 0 0 10 0 2 9 0 1 8 0 0 11 0 3 9 0 1 10 0 2 14 0 0 13 0 3 12 0 1 15 0 2 13 0 3 14 0 0 18 0 6 17 0 5 16 0 4 19 0 7 17 0 5 18 0 6 22 0 4 21 0 7 20 0 5 23 0 6 21 0 7 22 0 4 26 0 10 25 0 9 24 0 8 27 0 11 25 0 9 26 0 10 30 0 8 29 0 11 28 0 9 31 0 10 29 0 11 30 0 8 34 0 14 33 0 13 32 0 12 35 0 15 33 0 13 34 0 14 38 0 12 37 0 15 36 0 13 39 0 14 37 0 15 38 0 12</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0_Controller">
+			<skin source="#polygon0">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0_Joints">
+					<Name_array id="polygon0_JointArr" count="1">MiiKanban</Name_array>
+					<technique_common>
+						<accessor source="#polygon0_JointArr" count="1">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Matrices">
+					<float_array id="polygon0_MatArr" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_MatArr" count="1" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Weights">
+					<float_array id="polygon0_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0_Matrices" />
+				</joints>
+				<vertex_weights count="40">
+					<input semantic="JOINT" offset="0" source="#polygon0_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNode" name="RootNode">
+			<node id="MiiKanban" name="MiiKanban" sid="MiiKanban" type="JOINT" />
+			<node id="polygon0" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0_Controller">
+					<skeleton>#MiiKanban</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="MiiKanban_m" target="#MiiKanban_m">
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNode" />
+	</scene>
+</COLLADA>

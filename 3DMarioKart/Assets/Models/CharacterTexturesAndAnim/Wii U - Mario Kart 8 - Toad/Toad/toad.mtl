@@ -1,0 +1,46 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Body__m_Body
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd kinopio_alb.png
+map_Disp kinopio_nrm.png
+
+newmtl Body__m_Eye
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd kinopioeye_alb.0.png
+map_Disp kinopioeye_nrm.0.png
+
+newmtl Pupil__m_PupilL
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd kinopiopupil_alb.png
+map_Disp kinopiopupil_nrm.png
+
+newmtl Pupil__m_PupilR
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd kinopiopupil_alb.png
+map_Disp kinopiopupil_nrm.png

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3300848703072844499
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Explosion
+  m_Shader: {fileID: -6465566751694194690, guid: aadb197895a6eb64cbab65170cc17dee,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3AB372AD:
+        m_Texture: {fileID: 2800000, guid: 65d404936e2f3884196b765920012434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_52A7706C:
+        m_Texture: {fileID: 2800000, guid: babdc4b4be781184ca925187bda862d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5D7ED38B:
+        m_Texture: {fileID: 2800000, guid: fdf8353cd03d54e49baff3f1f0289430, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_D1B58143_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 65d404936e2f3884196b765920012434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_12AB88CF: 0
+    - Vector1_13C9C0E: 4
+    - Vector1_197C8084: 0.84
+    - Vector1_4887B9BB: 0.01
+    - Vector1_5CFAA014: 0.1
+    - Vector1_85B5E593: 40.29
+    - Vector1_C4BF279D: 0
+    - Vector1_D1F02F6: 70
+    - Vector1_DB6293F: 5.84
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - Color_264CD7DC: {r: 0, g: 0, b: 0, a: 0}
+    - Color_328A8D84: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
+    - Color_36E61693: {r: 0, g: 0, b: 0, a: 0}
+    - Color_518B5F0B: {r: 1, g: 1, b: 1, a: 0}
+    - Color_6EF94130: {r: 0.039215706, g: 0.6591594, b: 0.8509804, a: 0}
+    - Color_79E90805: {r: 1, g: 0, b: 0, a: 0}
+    - Color_A28F8A0B: {r: 0, g: 0.7417526, b: 1, a: 1}
+    - Color_E439F2C9: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_1A9419DC: {r: 0.51, g: 0.4, b: 0, a: 0}
+    - Vector2_4F9C134: {r: 0.06, g: 0, b: 0, a: 0}
+    - Vector2_56DD3998: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - Vector2_584B85B: {r: 1.68, g: 2.97, b: 0, a: 0}
+    - Vector2_6A573E83: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_75459F7E: {r: 0.3, g: 0.4, b: 0, a: 0}
+    - Vector2_79582C83: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_F587DCF9: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 0.9811321, b: 0.9811321, a: 1}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
