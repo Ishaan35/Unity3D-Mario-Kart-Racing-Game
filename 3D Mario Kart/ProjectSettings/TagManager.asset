@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - GliderPanel
+  - Dirt
+  - Boost
+  - GliderPanelFly
+  - ItemBox
+  - Path
+  - DriftLeft
+  - DriftRight
+  - Non-Hold-Item
+  - Shell
+  - Opponent
+  - Banana
+  - fence
+  - JumpPanel
+  - ColliderInAir
+  - CourseMusic
+  - Explosion
+  - NextLapCollider
+  - CancelDownForce
+  - SlowDownComputer
+  - TrailingItem
+  - Coin
+  - Cow
+  - PlayerTires
+  - TrickCollider
+  - AntiGravity
+  - AntiGravityFalse
+  - Water
+  - OutOfBounds
+  - ShellPlatforms
+  - Trolley
+  - Crate
+  - Submarine
+  - ChainChomp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - PlayerCollider
+  - Player
+  - GliderPath
+  - Path
+  - Shell
+  - OrbitingItems
+  - Surroundings
+  - Banana
+  - DIRECTIONAL LIGHT
+  - JumpPanel
+  - Fence
+  - PlayerBody
+  - Checkpoints
+  - Opponent
+  - PanelsAndTriggers
+  - TrailingItems
+  - ShellPlatforms
+  - Trolley
+  - PlayerClothes
+  - Tire
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
