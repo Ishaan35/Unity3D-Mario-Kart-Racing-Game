@@ -1,0 +1,1623 @@
+animVersion 1.1;
+mayaVersion 2015;
+timeUnit ntscf;
+linearUnit cm;
+angularUnit deg;
+startTime 1;
+endTime 1800;
+anim translate.translateX translateX N64RAccelRing 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY N64RAccelRing 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ N64RAccelRing 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX N64RAccelRing 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY N64RAccelRing 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ N64RAccelRing 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX N64RAccelRing 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY N64RAccelRing 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ N64RAccelRing 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX OutRing 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY OutRing 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ OutRing 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX OutRing 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 90.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY OutRing 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ OutRing 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX OutRing 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 58.838000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY OutRing 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 58.838000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ OutRing 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 58.838000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX Star_A 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY Star_A 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ Star_A 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX Star_A 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY Star_A 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ Star_A 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 -719.994600 fixed fixed 1 1 0 0 1 0 1;
+ 1801 359.994500 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX Star_A 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY Star_A 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ Star_A 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX Star_B 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY Star_B 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ Star_B 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX Star_B 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY Star_B 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ Star_B 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 -2,880.000000 fixed fixed 1 1 0 0 1 0 1;
+ 18 -2,869.288000 fixed fixed 1 1 0 0 1 0 1;
+ 120 -2,524.362000 fixed fixed 1 1 0 0 1 0 1;
+ 121 -2,519.994000 fixed fixed 1 1 0 0 1 0 1;
+ 122 -2,519.994000 fixed fixed 1 1 0 0 1 0 1;
+ 240 -2,164.356000 fixed fixed 1 1 0 0 1 0 1;
+ 241 -2,159.989000 fixed fixed 1 1 0 0 1 0 1;
+ 242 -2,159.989000 fixed fixed 1 1 0 0 1 0 1;
+ 360 -1,804.351000 fixed fixed 1 1 0 0 1 0 1;
+ 361 -1,799.984000 fixed fixed 1 1 0 0 1 0 1;
+ 362 -1,799.984000 fixed fixed 1 1 0 0 1 0 1;
+ 480 -1,444.345000 fixed fixed 1 1 0 0 1 0 1;
+ 481 -1,439.978000 fixed fixed 1 1 0 0 1 0 1;
+ 482 -1,439.978000 fixed fixed 1 1 0 0 1 0 1;
+ 600 -1,084.340000 fixed fixed 1 1 0 0 1 0 1;
+ 601 -1,079.973000 fixed fixed 1 1 0 0 1 0 1;
+ 602 -1,079.973000 fixed fixed 1 1 0 0 1 0 1;
+ 720 -724.334200 fixed fixed 1 1 0 0 1 0 1;
+ 721 -719.967100 fixed fixed 1 1 0 0 1 0 1;
+ 722 -719.967100 fixed fixed 1 1 0 0 1 0 1;
+ 840 -364.328700 fixed fixed 1 1 0 0 1 0 1;
+ 841 -359.961500 fixed fixed 1 1 0 0 1 0 1;
+ 842 -359.961500 fixed fixed 1 1 0 0 1 0 1;
+ 960 -4.323195 fixed fixed 1 1 0 0 1 0 1;
+ 961 -0.038399 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.044000 fixed fixed 1 1 0 0 1 0 1;
+ 1080 355.682300 fixed fixed 1 1 0 0 1 0 1;
+ 1081 359.967100 fixed fixed 1 1 0 0 1 0 1;
+ 1082 360.049600 fixed fixed 1 1 0 0 1 0 1;
+ 1200 715.687800 fixed fixed 1 1 0 0 1 0 1;
+ 1201 719.972700 fixed fixed 1 1 0 0 1 0 1;
+ 1202 720.055100 fixed fixed 1 1 0 0 1 0 1;
+ 1320 1,075.693000 fixed fixed 1 1 0 0 1 0 1;
+ 1321 1,079.978000 fixed fixed 1 1 0 0 1 0 1;
+ 1322 1,080.061000 fixed fixed 1 1 0 0 1 0 1;
+ 1440 1,435.699000 fixed fixed 1 1 0 0 1 0 1;
+ 1441 1,439.984000 fixed fixed 1 1 0 0 1 0 1;
+ 1442 1,440.066000 fixed fixed 1 1 0 0 1 0 1;
+ 1560 1,795.704000 fixed fixed 1 1 0 0 1 0 1;
+ 1561 1,799.989000 fixed fixed 1 1 0 0 1 0 1;
+ 1562 1,800.072000 fixed fixed 1 1 0 0 1 0 1;
+ 1680 2,155.627000 fixed fixed 1 1 0 0 1 0 1;
+ 1681 2,159.995000 fixed fixed 1 1 0 0 1 0 1;
+ 1682 2,160.077000 fixed fixed 1 1 0 0 1 0 1;
+ 1801 2,520.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX Star_B 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY Star_B 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ Star_B 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 1.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX Star_C 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY Star_C 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ Star_C 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX Star_C 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY Star_C 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ Star_C 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 -254.875000 fixed fixed 1 1 0 0 1 0 1;
+ 1 -2,774.875000 fixed fixed 1 1 0 0 1 0 1;
+ 33 -2,651.769000 fixed fixed 1 1 0 0 1 0 1;
+ 60 -2,524.956000 fixed fixed 1 1 0 0 1 0 1;
+ 61 -2,520.012000 fixed fixed 1 1 0 0 1 0 1;
+ 62 -2,519.929000 fixed fixed 1 1 0 0 1 0 1;
+ 180 -2,164.950000 fixed fixed 1 1 0 0 1 0 1;
+ 181 -2,160.006000 fixed fixed 1 1 0 0 1 0 1;
+ 182 -2,160.006000 fixed fixed 1 1 0 0 1 0 1;
+ 300 -1,804.945000 fixed fixed 1 1 0 0 1 0 1;
+ 301 -1,800.001000 fixed fixed 1 1 0 0 1 0 1;
+ 302 -1,800.001000 fixed fixed 1 1 0 0 1 0 1;
+ 420 -1,445.022000 fixed fixed 1 1 0 0 1 0 1;
+ 421 -1,439.995000 fixed fixed 1 1 0 0 1 0 1;
+ 422 -1,439.995000 fixed fixed 1 1 0 0 1 0 1;
+ 540 -1,085.016000 fixed fixed 1 1 0 0 1 0 1;
+ 541 -1,079.990000 fixed fixed 1 1 0 0 1 0 1;
+ 542 -1,079.990000 fixed fixed 1 1 0 0 1 0 1;
+ 660 -725.010700 fixed fixed 1 1 0 0 1 0 1;
+ 661 -719.984300 fixed fixed 1 1 0 0 1 0 1;
+ 662 -719.984300 fixed fixed 1 1 0 0 1 0 1;
+ 780 -365.005200 fixed fixed 1 1 0 0 1 0 1;
+ 781 -359.978800 fixed fixed 1 1 0 0 1 0 1;
+ 782 -359.978800 fixed fixed 1 1 0 0 1 0 1;
+ 900 -4.999651 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.026747 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.026747 fixed fixed 1 1 0 0 1 0 1;
+ 1020 355.005900 fixed fixed 1 1 0 0 1 0 1;
+ 1021 360.032300 fixed fixed 1 1 0 0 1 0 1;
+ 1022 360.032300 fixed fixed 1 1 0 0 1 0 1;
+ 1140 715.011400 fixed fixed 1 1 0 0 1 0 1;
+ 1141 720.037700 fixed fixed 1 1 0 0 1 0 1;
+ 1142 720.037700 fixed fixed 1 1 0 0 1 0 1;
+ 1260 1,075.017000 fixed fixed 1 1 0 0 1 0 1;
+ 1261 1,079.961000 fixed fixed 1 1 0 0 1 0 1;
+ 1262 1,080.043000 fixed fixed 1 1 0 0 1 0 1;
+ 1380 1,435.022000 fixed fixed 1 1 0 0 1 0 1;
+ 1381 1,439.966000 fixed fixed 1 1 0 0 1 0 1;
+ 1382 1,440.049000 fixed fixed 1 1 0 0 1 0 1;
+ 1500 1,795.028000 fixed fixed 1 1 0 0 1 0 1;
+ 1501 1,799.972000 fixed fixed 1 1 0 0 1 0 1;
+ 1502 1,800.054000 fixed fixed 1 1 0 0 1 0 1;
+ 1620 2,155.033000 fixed fixed 1 1 0 0 1 0 1;
+ 1621 2,159.977000 fixed fixed 1 1 0 0 1 0 1;
+ 1622 2,160.060000 fixed fixed 1 1 0 0 1 0 1;
+ 1740 2,515.039000 fixed fixed 1 1 0 0 1 0 1;
+ 1741 2,519.983000 fixed fixed 1 1 0 0 1 0 1;
+ 1742 2,520.065000 fixed fixed 1 1 0 0 1 0 1;
+ 1800 2,621.912000 fixed fixed 1 1 0 0 1 0 1;
+ 1801 2,625.125000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX Star_C 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY Star_C 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ Star_C 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX Star_D 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY Star_D 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ Star_D 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX Star_D 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY Star_D 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ Star_D 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 -2,880.000000 fixed fixed 1 1 0 0 1 0 1;
+ 23 -2,755.164000 fixed fixed 1 1 0 0 1 0 1;
+ 120 -2,519.994000 fixed fixed 1 1 0 0 1 0 1;
+ 121 -2,519.994000 fixed fixed 1 1 0 0 1 0 1;
+ 122 -2,513.732000 fixed fixed 1 1 0 0 1 0 1;
+ 240 -2,159.989000 fixed fixed 1 1 0 0 1 0 1;
+ 241 -2,159.989000 fixed fixed 1 1 0 0 1 0 1;
+ 242 -2,153.727000 fixed fixed 1 1 0 0 1 0 1;
+ 360 -1,799.984000 fixed fixed 1 1 0 0 1 0 1;
+ 361 -1,799.984000 fixed fixed 1 1 0 0 1 0 1;
+ 362 -1,793.721000 fixed fixed 1 1 0 0 1 0 1;
+ 480 -1,440.061000 fixed fixed 1 1 0 0 1 0 1;
+ 481 -1,439.978000 fixed fixed 1 1 0 0 1 0 1;
+ 482 -1,433.716000 fixed fixed 1 1 0 0 1 0 1;
+ 600 -1,080.055000 fixed fixed 1 1 0 0 1 0 1;
+ 601 -1,079.973000 fixed fixed 1 1 0 0 1 0 1;
+ 602 -1,073.710000 fixed fixed 1 1 0 0 1 0 1;
+ 720 -720.049500 fixed fixed 1 1 0 0 1 0 1;
+ 721 -719.967100 fixed fixed 1 1 0 0 1 0 1;
+ 722 -713.704700 fixed fixed 1 1 0 0 1 0 1;
+ 840 -360.043900 fixed fixed 1 1 0 0 1 0 1;
+ 841 -359.961500 fixed fixed 1 1 0 0 1 0 1;
+ 842 -353.699100 fixed fixed 1 1 0 0 1 0 1;
+ 960 -0.038399 fixed fixed 1 1 0 0 1 0 1;
+ 961 -0.038399 fixed fixed 1 1 0 0 1 0 1;
+ 962 6.306396 fixed fixed 1 1 0 0 1 0 1;
+ 1080 359.967100 fixed fixed 1 1 0 0 1 0 1;
+ 1081 359.967100 fixed fixed 1 1 0 0 1 0 1;
+ 1082 366.311900 fixed fixed 1 1 0 0 1 0 1;
+ 1200 719.972700 fixed fixed 1 1 0 0 1 0 1;
+ 1201 719.972700 fixed fixed 1 1 0 0 1 0 1;
+ 1202 726.317400 fixed fixed 1 1 0 0 1 0 1;
+ 1320 1,079.978000 fixed fixed 1 1 0 0 1 0 1;
+ 1321 1,079.978000 fixed fixed 1 1 0 0 1 0 1;
+ 1322 1,086.323000 fixed fixed 1 1 0 0 1 0 1;
+ 1440 1,439.984000 fixed fixed 1 1 0 0 1 0 1;
+ 1441 1,439.984000 fixed fixed 1 1 0 0 1 0 1;
+ 1442 1,446.328000 fixed fixed 1 1 0 0 1 0 1;
+ 1560 1,799.989000 fixed fixed 1 1 0 0 1 0 1;
+ 1561 1,799.989000 fixed fixed 1 1 0 0 1 0 1;
+ 1562 1,806.334000 fixed fixed 1 1 0 0 1 0 1;
+ 1680 2,159.995000 fixed fixed 1 1 0 0 1 0 1;
+ 1681 2,159.995000 fixed fixed 1 1 0 0 1 0 1;
+ 1682 2,166.340000 fixed fixed 1 1 0 0 1 0 1;
+ 1800 2,520.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1801 2,520.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX Star_D 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY Star_D 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ Star_D 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 120 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 121 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 122 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 123 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 239 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 240 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 241 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 242 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 359 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 360 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 361 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 362 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 479 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 480 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 481 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 482 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 599 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 600 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 601 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 602 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 719 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 720 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 721 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 722 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 839 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 840 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 841 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 842 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 959 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 960 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 961 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 962 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1079 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1080 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1081 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1082 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1199 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1200 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1201 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1202 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1319 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1320 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1321 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1322 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1439 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1440 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1441 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1442 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1559 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1560 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1561 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1562 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1679 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1680 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1681 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1682 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1799 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1800 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateX translateX Star_E 0 0 0;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateY translateY Star_E 0 0 1;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim translate.translateZ translateZ Star_E 0 0 2;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateX rotateX Star_E 0 0 3;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateY rotateY Star_E 0 0 4;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.000000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim rotate.rotateZ rotateZ Star_E 0 0 5;
+animData {
+  input time;
+  output angular;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 -94.824700 fixed fixed 1 1 0 0 1 0 1;
+ 1 -2,614.825000 fixed fixed 1 1 0 0 1 0 1;
+ 29 -2,547.587000 fixed fixed 1 1 0 0 1 0 1;
+ 60 -2,520.065000 fixed fixed 1 1 0 0 1 0 1;
+ 61 -2,519.983000 fixed fixed 1 1 0 0 1 0 1;
+ 62 -2,514.380000 fixed fixed 1 1 0 0 1 0 1;
+ 180 -2,160.060000 fixed fixed 1 1 0 0 1 0 1;
+ 181 -2,159.977000 fixed fixed 1 1 0 0 1 0 1;
+ 182 -2,154.374000 fixed fixed 1 1 0 0 1 0 1;
+ 300 -1,800.054000 fixed fixed 1 1 0 0 1 0 1;
+ 301 -1,799.972000 fixed fixed 1 1 0 0 1 0 1;
+ 302 -1,794.368000 fixed fixed 1 1 0 0 1 0 1;
+ 420 -1,440.048000 fixed fixed 1 1 0 0 1 0 1;
+ 421 -1,439.966000 fixed fixed 1 1 0 0 1 0 1;
+ 422 -1,434.363000 fixed fixed 1 1 0 0 1 0 1;
+ 540 -1,080.043000 fixed fixed 1 1 0 0 1 0 1;
+ 541 -1,079.960000 fixed fixed 1 1 0 0 1 0 1;
+ 542 -1,074.357000 fixed fixed 1 1 0 0 1 0 1;
+ 660 -720.037400 fixed fixed 1 1 0 0 1 0 1;
+ 661 -720.037400 fixed fixed 1 1 0 0 1 0 1;
+ 662 -714.351700 fixed fixed 1 1 0 0 1 0 1;
+ 780 -360.031800 fixed fixed 1 1 0 0 1 0 1;
+ 781 -360.031800 fixed fixed 1 1 0 0 1 0 1;
+ 782 -354.346200 fixed fixed 1 1 0 0 1 0 1;
+ 900 -0.026283 fixed fixed 1 1 0 0 1 0 1;
+ 901 -0.026283 fixed fixed 1 1 0 0 1 0 1;
+ 902 5.659317 fixed fixed 1 1 0 0 1 0 1;
+ 1020 359.979200 fixed fixed 1 1 0 0 1 0 1;
+ 1021 359.979200 fixed fixed 1 1 0 0 1 0 1;
+ 1022 365.664800 fixed fixed 1 1 0 0 1 0 1;
+ 1140 719.984800 fixed fixed 1 1 0 0 1 0 1;
+ 1141 719.984800 fixed fixed 1 1 0 0 1 0 1;
+ 1142 725.670400 fixed fixed 1 1 0 0 1 0 1;
+ 1260 1,079.990000 fixed fixed 1 1 0 0 1 0 1;
+ 1261 1,079.990000 fixed fixed 1 1 0 0 1 0 1;
+ 1262 1,085.676000 fixed fixed 1 1 0 0 1 0 1;
+ 1380 1,439.996000 fixed fixed 1 1 0 0 1 0 1;
+ 1381 1,439.996000 fixed fixed 1 1 0 0 1 0 1;
+ 1382 1,445.682000 fixed fixed 1 1 0 0 1 0 1;
+ 1500 1,800.001000 fixed fixed 1 1 0 0 1 0 1;
+ 1501 1,800.001000 fixed fixed 1 1 0 0 1 0 1;
+ 1502 1,805.687000 fixed fixed 1 1 0 0 1 0 1;
+ 1620 2,160.007000 fixed fixed 1 1 0 0 1 0 1;
+ 1621 2,160.007000 fixed fixed 1 1 0 0 1 0 1;
+ 1622 2,165.692000 fixed fixed 1 1 0 0 1 0 1;
+ 1740 2,520.012000 fixed fixed 1 1 0 0 1 0 1;
+ 1741 2,520.012000 fixed fixed 1 1 0 0 1 0 1;
+ 1742 2,525.698000 fixed fixed 1 1 0 0 1 0 1;
+ 1800 2,782.044000 fixed fixed 1 1 0 0 1 0 1;
+ 1801 2,785.176000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleX scaleX Star_E 0 0 6;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleY scaleY Star_E 0 0 7;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}
+anim scale.scaleZ scaleZ Star_E 0 0 8;
+animData {
+  input time;
+  output linear;
+  weighted 1;
+  preInfinity constant;
+  postInfinity constant;
+  keys {
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 1 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ 59 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 60 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 61 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 62 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 180 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 181 0.999985 fixed fixed 1 1 0 0 1 0 1;
+ 182 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 183 0.016678 fixed fixed 1 1 0 0 1 0 1;
+ 299 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 300 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 301 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 302 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 419 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 420 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 421 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 422 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 539 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 540 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 541 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 542 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 659 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 660 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 661 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 662 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 779 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 780 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 781 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 782 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 899 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 900 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 901 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 902 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1019 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1020 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1021 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1022 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1139 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1140 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1141 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1142 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1259 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1260 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1261 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1262 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1379 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1380 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1381 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1382 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1499 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1500 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1501 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1502 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1619 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1620 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1621 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1622 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1739 0.983322 fixed fixed 1 1 0 0 1 0 1;
+ 1740 0.991653 fixed fixed 1 1 0 0 1 0 1;
+ 1741 0.000015 fixed fixed 1 1 0 0 1 0 1;
+ 1742 0.008347 fixed fixed 1 1 0 0 1 0 1;
+ 1801 0.500000 fixed fixed 1 1 0 0 1 0 1;
+ }
+}

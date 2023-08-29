@@ -1,0 +1,2208 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 25.05.2015 13:30:43
+
+newmtl Material__332
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_kanban_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_kanban_alb.png
+
+newmtl Material__333
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+
+newmtl Material__350
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_alb.png
+
+newmtl Material__351
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__352
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+
+newmtl Material__353
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+
+newmtl Material__354
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+
+newmtl Material__376
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnpole1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnpole1_alb.png
+
+newmtl Material__377
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\crashbox_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\crashbox_alb.png
+
+newmtl Material__386
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_gravitypanell_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_gravitypanell_alb.png
+
+newmtl Material__466
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_gravitypanell_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_gravitypanell_alb.png
+
+newmtl Material__388
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_00_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_00_alb.png
+
+newmtl Material__389
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalwall01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalwall01_alb.png
+
+newmtl Material__399
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shop_wall_01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shop_wall_01_alb.png
+
+newmtl Material__400
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood03_alb.png
+
+newmtl Material__401
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_00_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_00_alb.png
+
+newmtl Material__405
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+
+newmtl Material__398
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_handrails_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_handrails_alb.png
+
+newmtl Material__393
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof02_alb.png
+
+newmtl Material__394
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof06_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof06_alb.png
+
+newmtl Material__395
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__396
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow03_alb.png
+
+newmtl Material__397
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood02_alb.png
+
+newmtl Material__429
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\planta_01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\planta_01_alb.png
+
+newmtl Material__302
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_rails03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_rails03_alb.png
+
+newmtl Material__297
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+
+newmtl Material__296
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall_alb.png
+
+newmtl Material__408
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_alb.png
+
+newmtl Material__292
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color05_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color05_alb.png
+
+newmtl Material__291
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+
+newmtl Material__294
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_window03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_window03_alb.png
+
+newmtl Material__290
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood04_alb.png
+
+newmtl Material__327
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_rails03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_rails03_alb.png
+
+newmtl Material__328
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_handrails_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_handrails_alb.png
+
+newmtl Material__329
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalframe01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalframe01_alb.png
+
+newmtl Material__331
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall07_alb.png
+
+newmtl Material__334
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clothred_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clothred_alb.png
+
+newmtl Material__335
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clothred_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clothred_alb.png
+
+newmtl Material__336
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+
+newmtl Material__337
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall_alb.png
+
+newmtl Material__340
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+
+newmtl Material__341
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_concrete_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_concrete_alb.png
+
+newmtl Material__346
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof06_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof06_alb.png
+
+newmtl Material__347
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood08_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood08_alb.png
+
+newmtl Material__342
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood03_alb.png
+
+newmtl Material__348
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood02_alb.png
+
+newmtl Material__343
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_middle01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_middle01_alb.png
+
+newmtl Material__344
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood08_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood08_alb.png
+
+newmtl Material__345
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood03_alb.png
+
+newmtl Material__355
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color02_alb.png
+
+newmtl Material__356
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color03_alb.png
+
+newmtl Material__357
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color01_alb.png
+
+newmtl Material__358
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall07_alb.png
+
+newmtl Material__359
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__360
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_builwood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_builwood02_alb.png
+
+newmtl Material__363
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+
+newmtl Material__364
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_brick3_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_brick3_alb.png
+
+newmtl Material__365
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof02_alb.png
+
+newmtl Material__366
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_stationboard01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_stationboard01_alb.png
+
+newmtl Material__367
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_wood1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_wood1_alb.png
+
+newmtl Material__368
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof01_alb.png
+
+newmtl Material__469
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_concrete_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_concrete_alb.png
+
+newmtl Material__468
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall2_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_toyside_wall2_alb.png
+
+newmtl Material__467
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof07_alb.png
+
+newmtl Material__371
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_house_window_alb.png
+
+newmtl Material__362
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_window03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_window03_alb.png
+
+newmtl Material__361
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof05_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof05_alb.png
+
+newmtl Material__373
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+
+newmtl Material__372
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_orang_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_orang_alb.png
+
+newmtl Material__375
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofred01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofred01_alb.png
+
+newmtl Material__384
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\panelflame_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\panelflame_alb.png
+
+newmtl Material__378
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_dashboard02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_dashboard02_alb.png
+
+newmtl Material__380
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt10_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt10_alb.png
+
+newmtl Material__381
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\planta_01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\planta_01_alb.png
+
+newmtl Material__383
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+
+newmtl Material__387
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+
+newmtl Material__390
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnstartgrid1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnstartgrid1_alb.png
+
+newmtl Material__465
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_alb.png
+
+newmtl Material__406
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalframe01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_smetalframe01_alb.png
+
+newmtl Material__407
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_streetligjt_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_streetligjt_alb.png
+
+newmtl Material__463
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\panelflame_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\panelflame_alb.png
+
+newmtl Material__464
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+
+newmtl Material__462
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofgreen01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofgreen01_alb.png
+
+newmtl Material__461
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_middle01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_middle01_alb.png
+
+newmtl Material__460
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_near01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_near01_alb.png
+
+newmtl Material__459
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_stationboard01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_stationboard01_alb.png
+
+newmtl Material__458
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_landscape01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_landscape01_alb.png
+
+newmtl Material__457
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_landscape01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_landscape01_alb.png
+
+newmtl Material__456
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickandtree_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickandtree_alb.png
+
+newmtl Material__455
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass02_alb.png
+
+newmtl Material__454
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_road03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_road03_alb.png
+
+newmtl Material__453
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofred01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofred01_alb.png
+
+newmtl Material__452
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall3_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall3_alb.png
+
+newmtl Material__451
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickandtree_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickandtree_alb.png
+
+newmtl Material__450
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnstartgrid1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\cmnstartgrid1_alb.png
+
+newmtl Material__449
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__448
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof01_alb.png
+
+newmtl Material__447
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof05_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof05_alb.png
+
+newmtl Material__446
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__445
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof04_alb.png
+
+newmtl Material__444
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+
+newmtl wire_225087143
+	Ns 32.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8824 0.3412 0.5608
+	Kd 0.8824 0.3412 0.5608
+	Ks 0.3500 0.3500 0.3500
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__443
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_slight01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_slight01_alb.png
+
+newmtl Material__442
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof04_alb.png
+
+newmtl Material__441
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood07_alb.png
+
+newmtl Material__440
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof07_alb.png
+
+newmtl Material__438
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall3_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall3_alb.png
+
+newmtl Material__437
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall4_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall4_alb.png
+
+newmtl Material__304
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_weed01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_weed01_alb.png
+
+newmtl Material__303
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofgreen01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_roofgreen01_alb.png
+
+newmtl Material__439
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_startgate_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_startgate_alb.png
+
+newmtl Material__430
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_startline_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_startline_alb.png
+
+newmtl Material__428
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_orang_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_orang_alb.png
+
+newmtl Material__427
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickred01_alb.png
+
+newmtl Material__426
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_brickgray01_alb.png
+
+newmtl Material__425
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt01_alb.png
+
+newmtl Material__424
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+
+newmtl Material__423
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall2_alb.png
+
+newmtl Material__422
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt10_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_asphalt10_alb.png
+
+newmtl Material__421
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_housetop01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_housetop01_alb.png
+
+newmtl Material__420
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_bmetal01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_bmetal01_alb.png
+
+newmtl Material__419
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_sornament01_alb.png
+
+newmtl Material__418
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall4_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall4_alb.png
+
+newmtl Material__417
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_seawater_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ef_seawater_alb.png
+
+newmtl Material__416
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+
+newmtl Material__415
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_road03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_road03_alb.png
+
+newmtl Material__413
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_near01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_signboard_near01_alb.png
+
+newmtl Material__412
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_housetop01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_housetop01_alb.png
+
+newmtl Material__411
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_colorglass_stationroof02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_colorglass_stationroof02_alb.png
+
+newmtl Material__409
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shop_wall_01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shop_wall_01_alb.png
+
+newmtl Material__410
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_slight01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_slight01_alb.png
+
+newmtl wire_154215229
+	Ns 32.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6039 0.8431 0.8980
+	Kd 0.6039 0.8431 0.8980
+	Ks 0.3500 0.3500 0.3500
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__250
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Material__326
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood07_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwood07_alb.png
+
+newmtl Material__324
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+
+newmtl Material__325
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+
+newmtl Material__323
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_tentyellow02_alb.png
+
+newmtl Material__322
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+
+newmtl Material__321
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hroof03_alb.png
+
+newmtl Material__320
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow01_alb.png
+
+newmtl Material__318
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall02_alb.png
+
+newmtl Material__317
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall04_alb.png
+
+newmtl Material__316
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall05_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall05_alb.png
+
+newmtl Material__315
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass02_alb.png
+
+newmtl Material__314
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall1_alb.png
+
+newmtl Material__313
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_grass03_alb.png
+
+newmtl Material__312
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall1_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_shoppingcenter_wall1_alb.png
+
+newmtl Material__311
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color05_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color05_alb.png
+
+newmtl Material__310
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwindow03_alb.png
+
+newmtl Material__309
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+
+newmtl Material__307
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower02_alb.png
+
+newmtl Material__306
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_swall04_alb.png
+
+newmtl Material__305
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color03_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color03_alb.png
+
+newmtl Material__301
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color04_alb.png
+
+newmtl Material__300
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_builwood02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_builwood02_alb.png
+
+newmtl Material__299
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color02_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_hwall02_color02_alb.png
+
+newmtl Material__298
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood04_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_wood04_alb.png
+
+newmtl Material__295
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_roof_alb.png
+	map_Kd C:\Users\Shane\Documents\3dsMax\export\Toad Harbor\ct_clocktower_roof_alb.png

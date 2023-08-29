@@ -1,8 +1,0 @@
-{
-    "name": "Unity.Searcher.Editor",
-    "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
-    "excludePlatforms": []
-}

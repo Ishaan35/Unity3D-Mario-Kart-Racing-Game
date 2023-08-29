@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="bd_jumpboard_Alb">
+      <init_from>bd_jumpboard_Alb.png</init_from>
+    </image>
+    <image id="bd_jumpboard_Nrm">
+      <init_from>bd_jumpboard_Nrm.png</init_from>
+    </image>
+    <image id="bd_jumpboard_Spm">
+      <init_from>bd_jumpboard_Spm.png</init_from>
+    </image>
+    <image id="Bake_MmJump_g00_b00_f00">
+      <init_from>Bake_MmJump_g00_b00_f00.png</init_from>
+    </image>
+    <image id="bd_jumpboard2_Alb">
+      <init_from>bd_jumpboard2_Alb.png</init_from>
+    </image>
+    <image id="bd_jumpboard2_Nrm">
+      <init_from>bd_jumpboard2_Nrm.png</init_from>
+    </image>
+    <image id="bd_jumpboard2_Spm">
+      <init_from>bd_jumpboard2_Spm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="mm_jumpboard">
+      <instance_effect url="#Effect_mm_jumpboard" />
+    </material>
+    <material id="mm_jumpboard2">
+      <instance_effect url="#Effect_mm_jumpboard2" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_mm_jumpboard">
+      <profile_COMMON>
+        <newparam sid="surface_mm_jumpboard-diffuse">
+          <surface type="2D">
+            <init_from>bd_jumpboard_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard-diffuse">
+          <sampler2D>
+            <source>surface_mm_jumpboard-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mm_jumpboard-bump">
+          <surface type="2D">
+            <init_from>bd_jumpboard_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard-bump">
+          <sampler2D>
+            <source>surface_mm_jumpboard-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mm_jumpboard-specular">
+          <surface type="2D">
+            <init_from>bd_jumpboard_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard-specular">
+          <sampler2D>
+            <source>surface_mm_jumpboard-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mm_jumpboard-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mm_jumpboard-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_mm_jumpboard-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_mm_jumpboard2">
+      <profile_COMMON>
+        <newparam sid="surface_mm_jumpboard2-diffuse">
+          <surface type="2D">
+            <init_from>bd_jumpboard2_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard2-diffuse">
+          <sampler2D>
+            <source>surface_mm_jumpboard2-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mm_jumpboard2-bump">
+          <surface type="2D">
+            <init_from>bd_jumpboard2_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard2-bump">
+          <sampler2D>
+            <source>surface_mm_jumpboard2-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_mm_jumpboard2-specular">
+          <surface type="2D">
+            <init_from>bd_jumpboard2_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_mm_jumpboard2-specular">
+          <sampler2D>
+            <source>surface_mm_jumpboard2-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_mm_jumpboard2-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_mm_jumpboard2-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_mm_jumpboard2-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="mm_jumpboard3__mm_jumpboard-mesh" name="mm_jumpboard3__mm_jumpboard">
+      <mesh>
+        <source id="mm_jumpboard3__mm_jumpboard-position">
+          <float_array id="mm_jumpboard3__mm_jumpboard-position-array" count="36">-1595.476 555.7408 1306.762 -1595.476 555.7408 1304.62 -1682.123 548.6171 1306.762 -1682.123 548.6171 1304.62 -1681.189 525.3174 1247.839 -1682.123 548.6171 1304.62 -1594.542 532.4412 1247.839 -1595.476 555.7408 1304.62 -1681.189 525.3174 1247.839 -1594.542 532.4412 1247.839 -1681.032 523.401 1247.839 -1594.384 530.5248 1247.839</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-position-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard-normal">
+          <float_array id="mm_jumpboard3__mm_jumpboard-normal-array" count="36">-0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-normal-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard-texcoord">
+          <float_array id="mm_jumpboard3__mm_jumpboard-texcoord-array" count="24">-0.001800592 0.999176 -0.001800592 0.9734794 0.9985656 0.999176 0.9985656 0.9734794 0.9985656 0.001434386 0.9985656 0.9734794 -0.001800592 0.001434386 -0.001800592 0.9734794 0 0 1 0 0 0.07864618 1 0.07864618</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-texcoord-array" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard-texcoord_1">
+          <float_array id="mm_jumpboard3__mm_jumpboard-texcoord-array_1" count="24">0.003967346 0.9169909 0.003967346 0.8971542 0.9156481 0.9169909 0.9156481 0.8971542 0.9156481 0.004119933 0.9156481 0.8971542 0.003967346 0.004119933 0.003967346 0.8971542 0.9243611 0.9150072 0.9243611 0.00364691 0.9960327 0.9150072 0.9960327 0.00364691</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-texcoord-array_1" count="12" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mm_jumpboard3__mm_jumpboard-vertex">
+          <input semantic="POSITION" source="#mm_jumpboard3__mm_jumpboard-position" />
+        </vertices>
+        <triangles material="mm_jumpboard" count="6">
+          <input semantic="VERTEX" source="#mm_jumpboard3__mm_jumpboard-vertex" offset="0" />
+          <input semantic="NORMAL" source="#mm_jumpboard3__mm_jumpboard-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#mm_jumpboard3__mm_jumpboard-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mm_jumpboard3__mm_jumpboard-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="mm_jumpboard3__mm_jumpboard2-mesh" name="mm_jumpboard3__mm_jumpboard2">
+      <mesh>
+        <source id="mm_jumpboard3__mm_jumpboard2-position">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-position-array" count="222">-1586.562 531.1678 1304.62 -1586.562 531.1678 1247.839 -1587.503 554.5449 1304.62 -1586.562 531.1678 1306.762 -1586.562 531.1678 1304.62 -1587.503 554.5449 1306.762 -1587.503 554.5449 1304.62 -1594.384 530.5248 1306.762 -1586.562 531.1678 1306.762 -1595.324 553.9019 1306.762 -1587.503 554.5449 1306.762 -1595.476 555.7408 1306.762 -1587.654 556.3839 1306.762 -1681.032 523.401 1306.762 -1594.384 530.5248 1306.762 -1681.972 546.7781 1306.762 -1595.324 553.9019 1306.762 -1688.854 522.7579 1306.762 -1681.032 523.401 1306.762 -1689.795 546.1349 1306.762 -1681.972 546.7781 1306.762 -1689.945 547.9741 1306.762 -1682.123 548.6171 1306.762 -1688.854 522.7579 1304.62 -1688.854 522.7579 1306.762 -1689.795 546.1349 1304.62 -1689.795 546.1349 1306.762 -1688.854 522.7579 1304.62 -1689.795 546.1349 1304.62 -1688.854 522.7579 1247.839 -1587.503 554.5449 1304.62 -1586.562 531.1678 1247.839 -1587.654 556.3839 1304.62 -1586.72 533.0842 1247.839 -1586.562 531.1678 1247.839 -1594.384 530.5248 1247.839 -1586.72 533.0842 1247.839 -1594.542 532.4412 1247.839 -1688.854 522.7579 1247.839 -1689.795 546.1349 1304.62 -1689.011 524.6743 1247.839 -1689.945 547.9741 1304.62 -1681.032 523.401 1247.839 -1688.854 522.7579 1247.839 -1681.189 525.3174 1247.839 -1689.011 524.6743 1247.839 -1689.795 546.1349 1304.62 -1689.795 546.1349 1306.762 -1689.945 547.9741 1304.62 -1689.945 547.9741 1306.762 -1587.503 554.5449 1306.762 -1587.503 554.5449 1304.62 -1587.654 556.3839 1306.762 -1587.654 556.3839 1304.62 -1681.972 546.7781 1306.762 -1595.324 553.9019 1306.762 -1682.123 548.6171 1306.762 -1595.476 555.7408 1306.762 -1587.654 556.3839 1304.62 -1586.72 533.0842 1247.839 -1595.476 555.7408 1304.62 -1594.542 532.4412 1247.839 -1689.011 524.6743 1247.839 -1689.945 547.9741 1304.62 -1681.189 525.3174 1247.839 -1682.123 548.6171 1304.62 -1689.945 547.9741 1304.62 -1689.945 547.9741 1306.762 -1682.123 548.6171 1304.62 -1682.123 548.6171 1306.762 -1587.654 556.3839 1306.762 -1587.654 556.3839 1304.62 -1595.476 555.7408 1306.762 -1595.476 555.7408 1304.62</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-position-array" count="74" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard2-normal">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-normal-array" count="222">1 0.04109589 0 0.9980431 0.05479452 -0.005870841 0.9980431 0.04892368 -0.003913894 1 0.04109589 0 1 0.04109589 0 1 0.04305284 0 0.9980431 0.04892368 -0.003913894 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 -0.04109589 0 -1 -0.04109589 0 -0.9980431 -0.04892368 0.003913894 -0.9980431 -0.04892368 0.003913894 -1 -0.04109589 0 -0.9980431 -0.04892368 0.003913894 -0.9980431 -0.05479452 0.005870841 0.9980431 0.04892368 -0.003913894 0.9980431 0.05479452 -0.005870841 0.9960861 0.08219178 -0.01565558 0.9960861 0.08219178 -0.01565558 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.9980431 -0.05479452 0.005870841 -0.9980431 -0.04892368 0.003913894 -0.9960861 -0.08219178 0.01565558 -0.9960861 -0.08219178 0.01565558 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.9980431 -0.04892368 0.003913894 -0.9980431 -0.04892368 0.003913894 -0.9960861 -0.08219178 0.01565558 -0.9960861 -0.08219178 0 1 0.04305284 0 0.9980431 0.04892368 -0.003913894 0.9960861 0.08219178 0 0.9960861 0.08219178 -0.01565558 0 0 1 0 0 1 0 0 1 0 0 1 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.07632094 0.9217221 -0.3796478 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0 -0.08219178 0.9960861 0</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-normal-array" count="74" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard2-texcoord">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-texcoord-array" count="148">0.890332 0.05560398 0.8832128 1.351016 0.5084867 0.05560398 0.890332 0.006189942 0.890332 0.05560398 0.5084867 0.006189942 0.5084867 0.05560398 1.118223 2.254203 1.118222 2.03367 1.500068 2.254202 1.500068 2.033669 1.551914 2.254202 1.551913 2.033669 2.745253 0.6277587 4.747996 0.6277587 2.745253 1.00279 4.747996 1.00279 4.115748 2.215086 4.115756 1.994552 4.497595 2.215099 4.4976 1.994567 4.549441 2.215101 4.549445 1.994569 0.9087762 0.05560362 0.9087762 0.006189942 1.290621 0.05560362 1.290621 0.006189942 0.9087762 0.05560362 1.290621 0.05560362 0.9158955 1.351015 7.453868 1.252371 6.503535 1.252371 7.453868 1.200525 6.503535 1.200525 2.549695 2.033669 2.549693 2.254202 2.502784 2.033669 2.502782 2.254202 9.808665 1.253152 8.513254 1.253152 9.808666 1.213361 8.513254 1.213361 5.558485 1.994572 5.558474 2.215104 5.511571 1.994568 5.511563 2.215101 8.513254 1.253152 8.46384 1.253152 8.513254 1.213361 8.46384 1.213361 7.503282 1.25237 7.453868 1.252371 7.503281 1.200525 7.453868 1.200525 5.502841 1.00279 6.502898 1.00279 5.502841 1.051956 6.502898 1.051956 1.601328 2.033669 2.502784 2.033669 1.601327 2.254202 2.502782 2.254202 5.511563 2.215101 4.598857 2.215101 5.511571 1.994568 4.598857 1.994569 4.598857 2.215101 4.549441 2.215101 4.598857 1.994569 4.549445 1.994569 1.551913 2.033669 1.601328 2.033669 1.551914 2.254202 1.601327 2.254202</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-texcoord-array" count="74" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard2-texcoord_1">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-texcoord-array_1" count="148">0.7914702 0.005401671 0.7879454 0.6462654 0.6025635 0.005401671 0.8719615 0.004303038 0.8964065 0.004303038 0.8719615 0.1932097 0.8964065 0.1932097 0.3694514 0.7136644 0.2603494 0.7136644 0.3694514 0.5247577 0.2603494 0.5247577 0.3694514 0.4991074 0.2603494 0.4991074 0.003692683 0.9960327 0.003692683 0.005249083 0.1324331 0.9960327 0.1324178 0.005249083 0.251133 0.7189441 0.142031 0.7189441 0.251133 0.5300374 0.142031 0.5300374 0.251133 0.504387 0.142031 0.504387 0.6106203 0.2532845 0.5861753 0.2532845 0.6106203 0.06437778 0.5861753 0.06437778 0.4059663 0.005401671 0.594873 0.005401671 0.4094911 0.6462654 0.8612039 0.005539 0.8612039 0.4756848 0.8355535 0.005539 0.8355535 0.4756848 0.2603494 0.005493224 0.3694514 0.005493224 0.2603494 0.0287022 0.3694514 0.0287022 0.398352 0.005462706 0.398352 0.6463112 0.3786679 0.005462706 0.3786679 0.6463112 0.1420462 0.005203307 0.2511483 0.005203307 0.142031 0.02841228 0.251133 0.02841228 0.9262226 0.0060426 0.9262226 0.03048754 0.9065385 0.0060426 0.9065385 0.03048754 0.5778592 0.2042878 0.5534142 0.2042878 0.5778592 0.1786374 0.5534142 0.1786374 0.8009613 0.4987106 0.8009613 0.003967345 0.8252842 0.4987106 0.8252842 0.003967345 0.2603494 0.4746624 0.2603494 0.0287022 0.3694514 0.4746624 0.3694514 0.0287022 0.251133 0.02841228 0.251133 0.479942 0.142031 0.02841228 0.142031 0.479942 0.251133 0.479942 0.251133 0.504387 0.142031 0.479942 0.142031 0.504387 0.2603494 0.4991074 0.2603494 0.4746624 0.3694514 0.4991074 0.3694514 0.4746624</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-texcoord-array_1" count="74" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="mm_jumpboard3__mm_jumpboard2-vertex">
+          <input semantic="POSITION" source="#mm_jumpboard3__mm_jumpboard2-position" />
+        </vertices>
+        <triangles material="mm_jumpboard2" count="38">
+          <input semantic="VERTEX" source="#mm_jumpboard3__mm_jumpboard2-vertex" offset="0" />
+          <input semantic="NORMAL" source="#mm_jumpboard3__mm_jumpboard2-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#mm_jumpboard3__mm_jumpboard2-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mm_jumpboard3__mm_jumpboard2-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 4 4 4 4 6 6 6 6 5 5 5 5 7 7 7 7 8 8 8 8 9 9 9 9 8 8 8 8 10 10 10 10 9 9 9 9 9 9 9 9 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 11 11 11 11 13 13 13 13 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 15 15 15 15 17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18 20 20 20 20 19 19 19 19 19 19 19 19 20 20 20 20 21 21 21 21 20 20 20 20 22 22 22 22 21 21 21 21 23 23 23 23 24 24 24 24 25 25 25 25 24 24 24 24 26 26 26 26 25 25 25 25 27 27 27 27 28 28 28 28 29 29 29 29 30 30 30 30 31 31 31 31 32 32 32 32 31 31 31 31 33 33 33 33 32 32 32 32 34 34 34 34 35 35 35 35 36 36 36 36 35 35 35 35 37 37 37 37 36 36 36 36 38 38 38 38 39 39 39 39 40 40 40 40 39 39 39 39 41 41 41 41 40 40 40 40 42 42 42 42 43 43 43 43 44 44 44 44 43 43 43 43 45 45 45 45 44 44 44 44 46 46 46 46 47 47 47 47 48 48 48 48 47 47 47 47 49 49 49 49 48 48 48 48 50 50 50 50 51 51 51 51 52 52 52 52 51 51 51 51 53 53 53 53 52 52 52 52 54 54 54 54 55 55 55 55 56 56 56 56 55 55 55 55 57 57 57 57 56 56 56 56 58 58 58 58 59 59 59 59 60 60 60 60 59 59 59 59 61 61 61 61 60 60 60 60 62 62 62 62 63 63 63 63 64 64 64 64 63 63 63 63 65 65 65 65 64 64 64 64 66 66 66 66 67 67 67 67 68 68 68 68 67 67 67 67 69 69 69 69 68 68 68 68 70 70 70 70 71 71 71 71 72 72 72 72 71 71 71 71 73 73 73 73 72 72 72 72 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_mm_jumpboard3__mm_jumpboard-mesh">
+      <skin source="#mm_jumpboard3__mm_jumpboard-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="mm_jumpboard3__mm_jumpboard-mesh-joint">
+          <Name_array id="mm_jumpboard3__mm_jumpboard-mesh-joint-array" count="1">mm_jumpboard3</Name_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard-mesh-inv_bind_matrix">
+          <float_array id="mm_jumpboard3__mm_jumpboard-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard-mesh-weight">
+          <float_array id="mm_jumpboard3__mm_jumpboard-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#mm_jumpboard3__mm_jumpboard-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#mm_jumpboard3__mm_jumpboard-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#mm_jumpboard3__mm_jumpboard-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#mm_jumpboard3__mm_jumpboard-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_mm_jumpboard3__mm_jumpboard2-mesh">
+      <skin source="#mm_jumpboard3__mm_jumpboard2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="mm_jumpboard3__mm_jumpboard2-mesh-joint">
+          <Name_array id="mm_jumpboard3__mm_jumpboard2-mesh-joint-array" count="1">mm_jumpboard3</Name_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard2-mesh-inv_bind_matrix">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mm_jumpboard3__mm_jumpboard2-mesh-weight">
+          <float_array id="mm_jumpboard3__mm_jumpboard2-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#mm_jumpboard3__mm_jumpboard2-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#mm_jumpboard3__mm_jumpboard2-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#mm_jumpboard3__mm_jumpboard2-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="74">
+          <input semantic="JOINT" source="#mm_jumpboard3__mm_jumpboard2-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#mm_jumpboard3__mm_jumpboard2-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_mm_jumpboard3" name="mm_jumpboard3" sid="mm_jumpboard3" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="mm_jumpboard3__mm_jumpboard" name="mm_jumpboard3__mm_jumpboard" type="NODE">
+        <instance_controller url="#Armature_mm_jumpboard3__mm_jumpboard-mesh">
+          <skeleton>#Armature_mm_jumpboard3</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mm_jumpboard" target="#mm_jumpboard" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="mm_jumpboard3__mm_jumpboard2" name="mm_jumpboard3__mm_jumpboard2" type="NODE">
+        <instance_controller url="#Armature_mm_jumpboard3__mm_jumpboard2-mesh">
+          <skeleton>#Armature_mm_jumpboard3</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="mm_jumpboard2" target="#mm_jumpboard2" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

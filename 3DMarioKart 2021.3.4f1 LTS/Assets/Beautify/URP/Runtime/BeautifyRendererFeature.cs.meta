@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7cbabd8e2cb2e4f8a930752453adf79a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - settings: {fileID: 11400000, guid: 68dde9df85a05a54fbc92e3b6f3a8c42, type: 2}
+  - hbaoShader: {fileID: 4800000, guid: bf610497676b34e4dbe0f14fe3fe311c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

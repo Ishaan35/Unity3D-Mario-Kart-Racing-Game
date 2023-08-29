@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 55d70ca4ea7504a38b66170bbe587b2f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _FlareTex: {fileID: 2800000, guid: 93092410bbc6f4ccba773578db5832d9, type: 3}
+  - _OverlayTex: {fileID: 2800000, guid: 0bd567658bec947d2b4d2877ccb0faa7, type: 3}
+  - _BlueNoise: {fileID: 2800000, guid: e6a467a4c71a24898ac842ed6f9a1d52, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
