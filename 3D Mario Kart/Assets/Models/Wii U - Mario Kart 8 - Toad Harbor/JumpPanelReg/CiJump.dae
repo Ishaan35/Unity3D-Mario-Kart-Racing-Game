@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="PanelFlame_Alb">
+      <init_from>PanelFlame_Alb.png</init_from>
+    </image>
+    <image id="PanelFlame_Nrm">
+      <init_from>PanelFlame_Nrm.png</init_from>
+    </image>
+    <image id="PanelFlame_Spm">
+      <init_from>PanelFlame_Spm.png</init_from>
+    </image>
+    <image id="Bake_CiJump_g00_b00_f00">
+      <init_from>Bake_CiJump_g00_b00_f00.png</init_from>
+    </image>
+    <image id="Bake_CiJump_g00_b01_f00">
+      <init_from>Bake_CiJump_g00_b01_f00.png</init_from>
+    </image>
+    <image id="ct_wood03_Alb">
+      <init_from>ct_wood03_Alb.png</init_from>
+    </image>
+    <image id="ct_wood03_Nrm">
+      <init_from>ct_wood03_Nrm.png</init_from>
+    </image>
+    <image id="ct_wood03_Spm">
+      <init_from>ct_wood03_Spm.png</init_from>
+    </image>
+    <image id="ef_dashboard02_Alb">
+      <init_from>ef_dashboard02_Alb.png</init_from>
+    </image>
+    <image id="ef_dashboard_Nrm">
+      <init_from>ef_dashboard_Nrm.png</init_from>
+    </image>
+    <image id="ef_dashboard01_Alb">
+      <init_from>ef_dashboard01_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="PanelFlame">
+      <instance_effect url="#Effect_PanelFlame" />
+    </material>
+    <material id="ct_wood03">
+      <instance_effect url="#Effect_ct_wood03" />
+    </material>
+    <material id="ef_dashboard2">
+      <instance_effect url="#Effect_ef_dashboard2" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_PanelFlame">
+      <profile_COMMON>
+        <newparam sid="surface_PanelFlame-diffuse">
+          <surface type="2D">
+            <init_from>PanelFlame_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PanelFlame-diffuse">
+          <sampler2D>
+            <source>surface_PanelFlame-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PanelFlame-bump">
+          <surface type="2D">
+            <init_from>PanelFlame_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PanelFlame-bump">
+          <sampler2D>
+            <source>surface_PanelFlame-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_PanelFlame-specular">
+          <surface type="2D">
+            <init_from>PanelFlame_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_PanelFlame-specular">
+          <sampler2D>
+            <source>surface_PanelFlame-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_PanelFlame-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_PanelFlame-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_PanelFlame-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_ct_wood03">
+      <profile_COMMON>
+        <newparam sid="surface_ct_wood03-diffuse">
+          <surface type="2D">
+            <init_from>ct_wood03_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ct_wood03-diffuse">
+          <sampler2D>
+            <source>surface_ct_wood03-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ct_wood03-bump">
+          <surface type="2D">
+            <init_from>ct_wood03_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ct_wood03-bump">
+          <sampler2D>
+            <source>surface_ct_wood03-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ct_wood03-specular">
+          <surface type="2D">
+            <init_from>ct_wood03_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ct_wood03-specular">
+          <sampler2D>
+            <source>surface_ct_wood03-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ct_wood03-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_ct_wood03-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_ct_wood03-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_ef_dashboard2">
+      <profile_COMMON>
+        <newparam sid="surface_ef_dashboard2-diffuse">
+          <surface type="2D">
+            <init_from>ef_dashboard02_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ef_dashboard2-diffuse">
+          <sampler2D>
+            <source>surface_ef_dashboard2-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_ef_dashboard2-bump">
+          <surface type="2D">
+            <init_from>ef_dashboard_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_ef_dashboard2-bump">
+          <sampler2D>
+            <source>surface_ef_dashboard2-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_ef_dashboard2-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_ef_dashboard2-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Dash_DASH__ef_dashboard2-mesh" name="Dash_DASH__ef_dashboard2">
+      <mesh>
+        <source id="Dash_DASH__ef_dashboard2-position">
+          <float_array id="Dash_DASH__ef_dashboard2-position-array" count="12">-23.39893 16.78821 4.948242 -23.39893 1.910217 43.46057 23.40552 16.78815 4.948364 23.40552 1.910217 43.46057</float_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_DASH__ef_dashboard2-normal">
+          <float_array id="Dash_DASH__ef_dashboard2-normal-array" count="12">0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783</float_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_DASH__ef_dashboard2-texcoord">
+          <float_array id="Dash_DASH__ef_dashboard2-texcoord-array" count="8">1 0 1 -2 -1 0 -1 -2</float_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Dash_DASH__ef_dashboard2-vertex">
+          <input semantic="POSITION" source="#Dash_DASH__ef_dashboard2-position" />
+        </vertices>
+        <triangles material="ef_dashboard2" count="2">
+          <input semantic="VERTEX" source="#Dash_DASH__ef_dashboard2-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Dash_DASH__ef_dashboard2-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Dash_DASH__ef_dashboard2-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Dash_dai__ct_wood03-mesh" name="Dash_dai__ct_wood03">
+      <mesh>
+        <source id="Dash_dai__ct_wood03-position">
+          <float_array id="Dash_dai__ct_wood03-position-array" count="30">28.70215 0 0 -28.70239 0 0 28.70215 18.69739 0 -28.70239 18.69739 0 28.70215 0 48.40015 28.70215 0 0 28.70215 18.69739 0 -28.70239 0 0 -28.70239 0 48.40015 -28.70239 18.69739 0</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-position-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_dai__ct_wood03-normal">
+          <float_array id="Dash_dai__ct_wood03-normal-array" count="30">0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-normal-array" count="10" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_dai__ct_wood03-texcoord">
+          <float_array id="Dash_dai__ct_wood03-texcoord-array" count="20">-0.7546813 0 0.9959841 0 -0.7546813 1 0.9959838 1 -2.491675 0 -0.7546813 0 -0.7546813 1 0.9959841 0 2.732977 0 0.9959838 1</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-texcoord-array" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_dai__ct_wood03-texcoord_1">
+          <float_array id="Dash_dai__ct_wood03-texcoord-array_1" count="20">0.003463798 0.9960327 0.003463798 0.003967345 0.408011 0.9960327 0.408011 0.003967345 0.4162661 0.9885862 0.4162661 0.004257262 0.6995956 0.004257262 0.7078508 0.9885862 0.7078508 0.004257262 0.9911803 0.9885862</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-texcoord-array_1" count="10" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Dash_dai__ct_wood03-vertex">
+          <input semantic="POSITION" source="#Dash_dai__ct_wood03-position" />
+        </vertices>
+        <triangles material="ct_wood03" count="4">
+          <input semantic="VERTEX" source="#Dash_dai__ct_wood03-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Dash_dai__ct_wood03-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Dash_dai__ct_wood03-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Dash_dai__ct_wood03-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="Dash_panel__PanelFlame-mesh" name="Dash_panel__PanelFlame">
+      <mesh>
+        <source id="Dash_panel__PanelFlame-position">
+          <float_array id="Dash_panel__PanelFlame-position-array" count="144">23.80566 17.58527 4.827393 -23.79883 17.58527 4.827393 23.40552 16.78815 4.948364 -23.39893 16.78821 4.948242 -23.79883 17.58527 4.827393 -23.79883 2.419067 44.08594 -23.39893 16.78821 4.948242 -23.39893 1.910217 43.46057 28.30566 19.20673 0.6296387 28.30542 0.7976074 48.28369 28.70557 18.69788 0.004272461 28.70557 0.0004882813 48.40454 23.80566 2.419067 44.08594 23.40552 1.910217 43.46057 -23.79883 2.419067 44.08594 -23.39893 1.910217 43.46057 28.30566 19.20673 0.6296387 -28.29883 19.20673 0.6296387 23.80566 17.58527 4.827393 -23.79883 17.58527 4.827393 -28.29907 0.7976074 48.28369 -23.79883 2.419067 44.08594 -28.29883 19.20673 0.6296387 -23.79883 17.58527 4.827393 28.30542 0.7976074 48.28369 23.80566 2.419067 44.08594 -28.29907 0.7976074 48.28369 -23.79883 2.419067 44.08594 28.30566 19.20673 0.6296387 23.80566 17.58527 4.827393 28.30542 0.7976074 48.28369 23.80566 2.419067 44.08594 -28.69897 0.0004882813 48.40454 28.70557 0.0004882813 48.40454 -28.29907 0.7976074 48.28369 28.30542 0.7976074 48.28369 23.40552 16.78815 4.948364 23.40552 1.910217 43.46057 23.80566 17.58527 4.827393 23.80566 2.419067 44.08594 28.70557 18.69788 0.004272461 -28.69873 18.69788 0.004272461 28.30566 19.20673 0.6296387 -28.29883 19.20673 0.6296387 -28.69873 18.69788 0.004272461 -28.69897 0.0004882813 48.40454 -28.29883 19.20673 0.6296387 -28.29907 0.7976074 48.28369</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-position-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_panel__PanelFlame-normal">
+          <float_array id="Dash_panel__PanelFlame-normal-array" count="144">0 0.1506849 0.9882583 0 0.1506849 0.9882583 0 0.1506849 0.9882583 0 0.1506849 0.9882583 0.8688846 0.4618395 0.1780822 0.8688846 0.4618395 0.1780822 0.8688846 0.4618395 0.1780822 0.8688846 0.4618395 0.1780822 0.8688846 0.4637965 0.1780822 0.8688846 0.4637965 0.1780822 0.8688846 0.4637965 0.1780822 0.8688846 0.4637965 0.1780822 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.9334638 0.3600783 0 0.1506849 0.9882583 0 0.1506849 0.9882583 0 0.1506849 0.9882583 0 0.1506849 0.9882583 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 0 0.7749511 -0.6320939 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822 -0.8688846 0.4637965 0.1780822</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-normal-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_panel__PanelFlame-texcoord">
+          <float_array id="Dash_panel__PanelFlame-texcoord-array" count="96">-0.001826901 0.8808658 1.044992 0.8808653 -0.001826901 1 1.044992 1 -0.002254654 0.8808739 1.043419 0.8808708 -0.002254654 1.000001 1.043419 1.000001 1.144679 0.1191243 -0.1035144 0.1191604 1.144679 -2.384186E-06 -0.1035144 2.264977E-06 1.044992 0.8808637 1.044992 1 -0.001826961 0.8808622 -0.001826961 1 -0.09805752 0.119131 1.141218 0.1191362 -0.001826901 0.8808658 1.044992 0.8808653 1.144679 0.1191256 1.043419 0.8808708 -0.1035146 0.1191647 -0.002254654 0.8808739 1.141218 0.1191362 1.044992 0.8808637 -0.09805746 0.1191292 -0.001826961 0.8808622 1.144679 0.1191243 1.043419 0.8808708 -0.1035144 0.1191604 -0.002254281 0.88087 -0.09805746 2.264977E-06 1.141218 0 -0.09805746 0.1191292 1.141218 0.1191362 1.043419 1.000001 -0.002254281 1.000002 1.043419 0.8808708 -0.002254281 0.88087 -0.09805746 2.264977E-06 1.141218 0 -0.09805752 0.119131 1.141218 0.1191362 -0.1035146 1.072884E-06 1.144679 -1.192093E-06 -0.1035146 0.1191647 1.144679 0.1191256</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-texcoord-array" count="48" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_panel__PanelFlame-texcoord_1">
+          <float_array id="Dash_panel__PanelFlame-texcoord-array_1" count="96">0.3049821 0.9141527 0.3049821 0.08215457 0.3168231 0.9141527 0.3168231 0.08215457 0.08920424 0.9155566 0.08920424 0.08444345 0.1010452 0.9155566 0.1010452 0.08444345 0.1205005 0.003967345 0.1205005 0.9960327 0.1086595 0.003967345 0.1086595 0.9960327 0.4137942 0.08215457 0.4256352 0.08215457 0.4137942 0.9141527 0.4256352 0.9141527 0.2293126 0.9906462 0.2293126 0.00566107 0.3049821 0.9141527 0.3049821 0.08215457 0.01353475 0.003967345 0.08920424 0.08444345 0.01353475 0.9960327 0.08920424 0.9155566 0.3381247 0.00566107 0.4137942 0.08215457 0.3381094 0.9906462 0.4137942 0.9141527 0.1205005 0.003967345 0.19617 0.08444345 0.1205005 0.9960327 0.19617 0.9155566 0.3262837 0.9906462 0.3262837 0.00566107 0.3381094 0.9906462 0.3381247 0.00566107 0.208011 0.08444345 0.208011 0.9155566 0.19617 0.08444345 0.19617 0.9155566 0.2174716 0.9906462 0.2174716 0.00566107 0.2293126 0.9906462 0.2293126 0.00566107 0.001693751 0.9960327 0.001693751 0.003967345 0.01353475 0.9960327 0.01353475 0.003967345</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-texcoord-array_1" count="48" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Dash_panel__PanelFlame-vertex">
+          <input semantic="POSITION" source="#Dash_panel__PanelFlame-position" />
+        </vertices>
+        <triangles material="PanelFlame" count="24">
+          <input semantic="VERTEX" source="#Dash_panel__PanelFlame-vertex" offset="0" />
+          <input semantic="NORMAL" source="#Dash_panel__PanelFlame-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#Dash_panel__PanelFlame-texcoord" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#Dash_panel__PanelFlame-texcoord_1" offset="3" set="1" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 8 8 8 8 9 9 9 9 10 10 10 10 9 9 9 9 11 11 11 11 10 10 10 10 12 12 12 12 13 13 13 13 14 14 14 14 13 13 13 13 15 15 15 15 14 14 14 14 16 16 16 16 17 17 17 17 18 18 18 18 17 17 17 17 19 19 19 19 18 18 18 18 20 20 20 20 21 21 21 21 22 22 22 22 21 21 21 21 23 23 23 23 22 22 22 22 24 24 24 24 25 25 25 25 26 26 26 26 25 25 25 25 27 27 27 27 26 26 26 26 28 28 28 28 29 29 29 29 30 30 30 30 29 29 29 29 31 31 31 31 30 30 30 30 32 32 32 32 33 33 33 33 34 34 34 34 33 33 33 33 35 35 35 35 34 34 34 34 36 36 36 36 37 37 37 37 38 38 38 38 37 37 37 37 39 39 39 39 38 38 38 38 40 40 40 40 41 41 41 41 42 42 42 42 41 41 41 41 43 43 43 43 42 42 42 42 44 44 44 44 45 45 45 45 46 46 46 46 45 45 45 45 47 47 47 47 46 46 46 46 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_Dash_DASH__ef_dashboard2-mesh">
+      <skin source="#Dash_DASH__ef_dashboard2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Dash_DASH__ef_dashboard2-mesh-joint">
+          <Name_array id="Dash_DASH__ef_dashboard2-mesh-joint-array" count="1">CiJump</Name_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_DASH__ef_dashboard2-mesh-inv_bind_matrix">
+          <float_array id="Dash_DASH__ef_dashboard2-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_DASH__ef_dashboard2-mesh-weight">
+          <float_array id="Dash_DASH__ef_dashboard2-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Dash_DASH__ef_dashboard2-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Dash_DASH__ef_dashboard2-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Dash_DASH__ef_dashboard2-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#Dash_DASH__ef_dashboard2-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Dash_DASH__ef_dashboard2-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Dash_dai__ct_wood03-mesh">
+      <skin source="#Dash_dai__ct_wood03-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Dash_dai__ct_wood03-mesh-joint">
+          <Name_array id="Dash_dai__ct_wood03-mesh-joint-array" count="1">CiJump</Name_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_dai__ct_wood03-mesh-inv_bind_matrix">
+          <float_array id="Dash_dai__ct_wood03-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_dai__ct_wood03-mesh-weight">
+          <float_array id="Dash_dai__ct_wood03-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Dash_dai__ct_wood03-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Dash_dai__ct_wood03-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Dash_dai__ct_wood03-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="10">
+          <input semantic="JOINT" source="#Dash_dai__ct_wood03-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Dash_dai__ct_wood03-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_Dash_panel__PanelFlame-mesh">
+      <skin source="#Dash_panel__PanelFlame-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Dash_panel__PanelFlame-mesh-joint">
+          <Name_array id="Dash_panel__PanelFlame-mesh-joint-array" count="1">CiJump</Name_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_panel__PanelFlame-mesh-inv_bind_matrix">
+          <float_array id="Dash_panel__PanelFlame-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Dash_panel__PanelFlame-mesh-weight">
+          <float_array id="Dash_panel__PanelFlame-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#Dash_panel__PanelFlame-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Dash_panel__PanelFlame-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#Dash_panel__PanelFlame-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="48">
+          <input semantic="JOINT" source="#Dash_panel__PanelFlame-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#Dash_panel__PanelFlame-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_CiJump" name="CiJump" sid="CiJump" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="Dash_DASH__ef_dashboard2" name="Dash_DASH__ef_dashboard2" type="NODE">
+        <instance_controller url="#Armature_Dash_DASH__ef_dashboard2-mesh">
+          <skeleton>#Armature_CiJump</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ef_dashboard2" target="#ef_dashboard2" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Dash_dai__ct_wood03" name="Dash_dai__ct_wood03" type="NODE">
+        <instance_controller url="#Armature_Dash_dai__ct_wood03-mesh">
+          <skeleton>#Armature_CiJump</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="ct_wood03" target="#ct_wood03" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="Dash_panel__PanelFlame" name="Dash_panel__PanelFlame" type="NODE">
+        <instance_controller url="#Armature_Dash_panel__PanelFlame-mesh">
+          <skeleton>#Armature_CiJump</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="PanelFlame" target="#PanelFlame" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

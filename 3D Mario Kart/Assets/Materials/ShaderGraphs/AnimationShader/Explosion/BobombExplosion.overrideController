@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BobombExplosion
+  m_Controller: {fileID: 9100000, guid: bb86a31eefa58c34ab7766e1413c6db6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2cc73a3936843e447ad86829983339c0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2cc73a3936843e447ad86829983339c0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 09ada8589f70d3344a385f370a4449fb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6ffea0495c2ad4549af7704e5c867d7f, type: 2}

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Centrixe</author>
+      <authoring_tool>OpenCOLLADA for 3ds Max;  Version: 1.6;  Revision: 68</authoring_tool>
+    </contributor>
+    <created>2020-02-01T06:44:13</created>
+    <modified>2020-02-01T06:44:13</modified>
+    <unit name="inch" meter="0.0254"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="DKBarrel_FX">
+      <profile_COMMON>
+        <newparam sid="DKBarrel_FX_Alb_png-surface">
+          <surface type="2D">
+            <init_from>DKBarrel_FX_Alb_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="DKBarrel_FX_Alb_png-sampler">
+          <sampler2D>
+            <source>DKBarrel_FX_Alb_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="DKBarrel_FX_Spm_png-surface">
+          <surface type="2D">
+            <init_from>DKBarrel_FX_Spm_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="DKBarrel_FX_Spm_png-sampler">
+          <sampler2D>
+            <source>DKBarrel_FX_Spm_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="DKBarrel_FX_Nrm_png-surface">
+          <surface type="2D">
+            <init_from>DKBarrel_FX_Nrm_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="DKBarrel_FX_Nrm_png-sampler">
+          <sampler2D>
+            <source>DKBarrel_FX_Nrm_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0.588 0.588 0.588 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="DKBarrel_FX_Alb_png-sampler" texcoord="CHANNEL1"/>
+            </diffuse>
+            <specular>
+              <color>0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+            <reflective>
+              <color>0 0 0 1</color>
+            </reflective>
+            <transparent opaque="A_ONE">
+              <texture texture="DKBarrel_FX_Alb_png-sampler" texcoord="CHANNEL1"/>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </blinn>
+          <extra>
+            <technique profile="OpenCOLLADA3dsMax">
+              <specularLevel>
+                <texture texture="DKBarrel_FX_Spm_png-sampler" texcoord="CHANNEL1"/>
+              </specularLevel>
+              <bump bumptype="HEIGHTFIELD">
+                <texture texture="DKBarrel_FX_Nrm_png-sampler" texcoord="CHANNEL1"/>
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+      </profile_COMMON>
+      <extra>
+        <technique profile="OpenCOLLADA3dsMax">
+          <extended_shader>
+            <opacity_type sid="opacity_type" type="int">0</opacity_type>
+            <falloff_type sid="falloff_type" type="int">0</falloff_type>
+            <falloff sid="falloff" type="float">0</falloff>
+            <index_of_refraction sid="index_of_refraction" type="float">1.5</index_of_refraction>
+            <wire_size sid="wire_size" type="float">1</wire_size>
+            <wire_units sid="wire_units" type="int">0</wire_units>
+            <apply_reflection_dimming sid="apply_reflection_dimming" type="bool">0</apply_reflection_dimming>
+            <dim_level sid="dim_level" type="float">0</dim_level>
+            <reflection_level sid="reflection_level" type="float">3</reflection_level>
+          </extended_shader>
+          <shader>
+            <ambient_diffuse_texture_lock sid="ambient_diffuse_texture_lock" type="bool">1</ambient_diffuse_texture_lock>
+            <ambient_diffuse_lock sid="ambient_diffuse_lock" type="bool">1</ambient_diffuse_lock>
+            <diffuse_specular_lock sid="diffuse_specular_lock" type="bool">0</diffuse_specular_lock>
+            <use_self_illum_color sid="use_self_illum_color" type="bool">0</use_self_illum_color>
+            <self_illumination sid="self_illumination" type="float">0</self_illumination>
+            <specular_level sid="specular_level" type="float">0</specular_level>
+            <soften sid="soften" type="float">0.1</soften>
+          </shader>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="DKBarrel_FX-material" name="DKBarrel_FX">
+      <instance_effect url="#DKBarrel_FX"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="geom-BarrelFlower_Middle__DKBarrel_FX" name="BarrelFlower_Middle__DKBarrel_FX">
+      <mesh>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-positions">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-positions-array" count="264">4.045085 2.382528 9.605318 5 1.243504 9.896158 4.045085 1.611527 5.80185 5 0.4491568 5.977526 4.045085 0.1044779 10.187 4.045085 1.224091 1.940413 4.045085 -0.713213 6.153201 1.545085 -0.5994778 10.36675 5 0.04998958 1.999167 4.045085 1.224091 -1.940413 1.545085 -1.431597 6.261774 -1.545085 -0.5994778 10.36675 4.045085 -1.124112 2.057921 5 0.0499897 -1.999167 4.045085 1.611527 -5.80185 -1.545085 -1.431598 6.261774 -4.045085 0.1044779 10.187 1.545085 -1.849746 2.094233 4.045085 -1.124112 -2.057921 5 0.4491568 -5.977526 4.045085 2.382528 -9.605318 5 1.243504 -9.896158 4.045085 -0.713213 -6.153201 4.045085 0.1044779 -10.187 1.545085 -1.849746 -2.094233 1.545085 -1.431597 -6.261773 1.545085 -0.5994778 -10.36675 -1.545085 -1.849746 2.094233 -1.545085 -1.849746 -2.094233 -1.545085 -1.431598 -6.261774 -1.545085 -0.5994778 -10.36675 -4.045085 -0.7132134 6.153201 -5 1.243503 9.896158 -4.045085 -0.7132134 -6.153201 -4.045085 0.1044779 -10.187 -5 0.4491568 5.977526 -4.045086 2.382528 9.605318 -4.045085 -1.124112 2.057921 -4.045086 1.611527 5.80185 -1.545086 3.086484 9.425568 -5 0.04998946 1.999166 -4.045085 -1.124112 -2.057921 -5 0.04998946 -1.999167 -4.045086 1.224091 1.940413 -1.545086 2.329911 5.693277 1.545085 3.086484 9.425568 -5 0.4491568 -5.977526 -5 1.243503 -9.896158 -4.045086 1.224091 -1.940413 -4.045086 1.611527 -5.80185 -4.045086 2.382528 -9.605318 -1.545086 1.949726 1.904101 -1.545086 1.949726 -1.904101 -1.545086 2.329911 -5.693277 -1.545086 3.086484 -9.425568 1.545085 2.329912 5.693278 4.045085 2.382528 9.605318 4.045085 1.611527 5.80185 1.545085 1.949726 1.904101 4.045085 1.224091 1.940413 1.545085 1.949726 -1.904101 4.045085 1.224091 -1.940413 1.545085 2.329912 -5.693277 4.045085 1.611527 -5.80185 1.545085 3.086485 -9.425568 4.045085 2.382528 -9.605318 5 1.243504 9.896158 0 1.243504 9.896158 4.045085 0.1044779 10.187 1.545085 -0.5994778 10.36675 4.045085 2.382528 9.605318 -1.545085 -0.5994778 10.36675 1.545085 3.086484 9.425568 -4.045085 0.1044779 10.187 -1.545086 3.086484 9.425568 -5 1.243503 9.896158 -4.045086 2.382528 9.605318 5 1.243504 -9.896158 4.045085 0.1044779 -10.187 0 1.243504 -9.896158 4.045085 2.382528 -9.605318 1.545085 -0.5994778 -10.36675 1.545085 3.086485 -9.425568 -1.545085 -0.5994778 -10.36675 -1.545086 3.086484 -9.425568 -4.045085 0.1044779 -10.187 -4.045086 2.382528 -9.605318 -5 1.243503 -9.896158</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-positions-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-normals">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-normals-array" count="264">0.3720192 0.9221804 0.1057599 0.8480584 0.3955857 0.3525748 0.5051271 0.8536092 -0.1272712 0.9959132 -0.08606835 0.02737021 0.5478956 -0.7161268 0.4324036 0.5143579 0.8565917 -0.0410671 0.460232 -0.8774542 0.1351323 0.1429922 -0.9186788 0.3682154 0.9923002 -0.1232984 0.01174214 0.5143579 0.8565917 0.0410671 0.12517 -0.9818099 0.1427654 -0.1429922 -0.9186788 0.3682154 0.4506652 -0.891555 0.04506175 0.9922974 -0.1233219 -0.01174211 0.5051271 0.8536092 0.1272712 -0.12517 -0.9818099 0.1427654 -0.5478956 -0.7161268 0.4324036 0.1212478 -0.9915116 0.04694463 0.4506603 -0.8915575 -0.04506127 0.9959132 -0.08606835 -0.02737021 0.3720192 0.9221804 -0.1057599 0.8480584 0.3955857 -0.3525748 0.460232 -0.8774542 -0.1351323 0.5478956 -0.7161268 -0.4324036 0.1212479 -0.9915127 -0.04692083 0.12517 -0.9818099 -0.1427654 0.1429922 -0.9186788 -0.3682154 -0.1212478 -0.9915116 0.04694463 -0.1212478 -0.9915116 -0.04694463 -0.12517 -0.9818099 -0.1427654 -0.1429922 -0.9186788 -0.3682154 -0.4602512 -0.8774433 0.135138 -0.8480264 0.3956662 0.3525616 -0.4602512 -0.8774433 -0.135138 -0.5478956 -0.7161268 -0.4324036 -0.9959132 -0.08606835 0.02737021 -0.3720393 0.9221825 0.1056702 -0.4506555 -0.89156 0.04506079 -0.5051097 0.8536272 -0.1272192 -0.1056168 0.993561 0.04100698 -0.9923002 -0.1232984 0.01174214 -0.4506603 -0.8915575 -0.04506127 -0.9923002 -0.1232984 -0.01174214 -0.514358 0.8565917 -0.04106709 -0.1331801 0.9792531 -0.1527304 0.1056164 0.9935572 0.04110218 -0.9959132 -0.08606835 -0.02737021 -0.8480264 0.3956662 -0.3525616 -0.514358 0.8565917 0.04106709 -0.5051036 0.8536169 0.127313 -0.3720519 0.922166 -0.1057692 -0.1349337 0.9895493 -0.05084302 -0.1349337 0.9895493 0.05084302 -0.1331698 0.9792489 0.1527662 -0.1056214 0.9935565 -0.04110413 0.1331782 0.9792388 -0.1528235 0.3720192 0.9221804 0.1057599 0.5051271 0.8536092 -0.1272712 0.1349337 0.9895493 -0.05084302 0.5143579 0.8565917 -0.0410671 0.1349337 0.9895493 0.05084302 0.5143579 0.8565917 0.0410671 0.1331823 0.9792449 0.1527805 0.5051271 0.8536092 0.1272712 0.1056214 0.9935565 -0.04110413 0.3720192 0.9221804 -0.1057599 0.8480583 0.3955857 0.3525748 0 0.2466174 0.969113 0.5478956 -0.7161267 0.4324036 0.1429922 -0.9186788 0.3682154 0.3720192 0.9221804 0.1057599 -0.1429922 -0.9186788 0.3682154 0.1056164 0.9935572 0.04110219 -0.5478956 -0.7161267 0.4324036 -0.1056168 0.993561 0.04100698 -0.8480264 0.3956662 0.3525615 -0.3720393 0.9221826 0.1056702 0.8480583 0.3955857 -0.3525748 0.5478956 -0.7161267 -0.4324036 0 0.2466174 -0.969113 0.3720192 0.9221804 -0.1057599 0.1429922 -0.9186788 -0.3682154 0.1056214 0.9935566 -0.04110413 -0.1429922 -0.9186788 -0.3682154 -0.1056214 0.9935566 -0.04110413 -0.5478956 -0.7161267 -0.4324036 -0.3720519 0.9221661 -0.1057692 -0.8480264 0.3956662 -0.3525615</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-normals-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-map-2">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-map-2-array" count="264">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-map-2-array" count="88" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-map0">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-map0-array" count="264">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-map0-array" count="88" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-map1">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-map1-array" count="264">0 1 0 0 0.9000076 0 0.2 1 0 0.2 0.9000076 0 0 0.8 0 0.4 1 0 0.2 0.8 0 0 0.7000076 0 0.4 0.8999923 0 0.6 1 0 0.2 0.7000076 0 0 0.6 0 0.4 0.8 0 0.6 0.9000076 0 0.8 1 0 0.2 0.6 0 0 0.5000076 0 0.4 0.7000076 0 0.6 0.8 0 0.8 0.9000076 0 1 1 0 1 0.9000076 0 0.8 0.8 0 1 0.8 0 0.6 0.7000076 0 0.8 0.7000076 0 1 0.7000076 0 0.4 0.6 0 0.6 0.6 0 0.8 0.6 0 1 0.6 0 0.2 0.5000076 0 0 0.4 0 0.8 0.5000076 0 1 0.5000076 0 0.2 0.4 0 0 0.3000076 0 0.4 0.5000076 0 0.2 0.3000076 0 0 0.2 0 0.4 0.4 0 0.6 0.5000076 0 0.6 0.4 0 0.4 0.3000076 0 0.2 0.2 0 0 0.1000077 0 0.8 0.4 0 1 0.4 0 0.6 0.3000076 0 0.8 0.3000076 0 1 0.3000076 0 0.4 0.2 0 0.6 0.2 0 0.8 0.2 0 1 0.2 0 0.2 0.1000077 0 0 0 0 0.2 0 0 0.4 0.1000077 0 0.4 0 0 0.6 0.1000077 0 0.6 0 0 0.8 0.1000077 0 0.8 0 0 1 0.1000077 0 1 0 0 1 0.5000076 0 0.4999924 0.4789655 0 0.9045091 0.1909819 0 0.6545053 0 0 0.9045091 0.8090181 0 0.3454948 0 0 0.6545053 1 0 0.09549096 0.1909819 0 0.3454948 1 0 0 0.5000076 0 0.09549096 0.8090181 0 1 0.4922255 0 0.9045091 0.8090181 0 0.5000076 0.4720989 0 0.9045091 0.1965362 0 0.6478523 1 0 0.6478523 0 0 0.3521477 1 0 0.3521477 0 0 0.09549096 0.8090181 0 0.09549096 0.1965362 0 0 0.4922255 0</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-map1-array" count="88" stride="3">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+              <param name="P" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geom-BarrelFlower_Middle__DKBarrel_FX-vertices">
+          <input semantic="POSITION" source="#geom-BarrelFlower_Middle__DKBarrel_FX-positions"/>
+        </vertices>
+        <triangles material="DKBarrel_FX" count="120">
+          <input semantic="VERTEX" source="#geom-BarrelFlower_Middle__DKBarrel_FX-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#geom-BarrelFlower_Middle__DKBarrel_FX-normals" offset="1"/>
+          <input semantic="COLOR" source="#geom-BarrelFlower_Middle__DKBarrel_FX-map0" offset="2" set="0"/>
+          <input semantic="TEXCOORD" source="#geom-BarrelFlower_Middle__DKBarrel_FX-map1" offset="3" set="0"/>
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 1 1 1 1 4 4 4 4 3 3 3 3 2 2 2 2 3 3 3 3 5 5 5 5 4 4 4 4 6 6 6 6 3 3 3 3 4 4 4 4 7 7 7 7 6 6 6 6 3 3 3 3 8 8 8 8 5 5 5 5 3 3 3 3 6 6 6 6 8 8 8 8 5 5 5 5 8 8 8 8 9 9 9 9 7 7 7 7 10 10 10 10 6 6 6 6 7 7 7 7 11 11 11 11 10 10 10 10 6 6 6 6 12 12 12 12 8 8 8 8 6 6 6 6 10 10 10 10 12 12 12 12 8 8 8 8 13 13 13 13 9 9 9 9 8 8 8 8 12 12 12 12 13 13 13 13 9 9 9 9 13 13 13 13 14 14 14 14 11 11 11 11 15 15 15 15 10 10 10 10 11 11 11 11 16 16 16 16 15 15 15 15 10 10 10 10 17 17 17 17 12 12 12 12 10 10 10 10 15 15 15 15 17 17 17 17 12 12 12 12 18 18 18 18 13 13 13 13 12 12 12 12 17 17 17 17 18 18 18 18 13 13 13 13 19 19 19 19 14 14 14 14 13 13 13 13 18 18 18 18 19 19 19 19 14 14 14 14 19 19 19 19 20 20 20 20 19 19 19 19 21 21 21 21 20 20 20 20 19 19 19 19 22 22 22 22 21 21 21 21 18 18 18 18 22 22 22 22 19 19 19 19 22 22 22 22 23 23 23 23 21 21 21 21 18 18 18 18 24 24 24 24 22 22 22 22 17 17 17 17 24 24 24 24 18 18 18 18 22 22 22 22 25 25 25 25 23 23 23 23 24 24 24 24 25 25 25 25 22 22 22 22 25 25 25 25 26 26 26 26 23 23 23 23 17 17 17 17 27 27 27 27 24 24 24 24 15 15 15 15 27 27 27 27 17 17 17 17 24 24 24 24 28 28 28 28 25 25 25 25 27 27 27 27 28 28 28 28 24 24 24 24 25 25 25 25 29 29 29 29 26 26 26 26 28 28 28 28 29 29 29 29 25 25 25 25 29 29 29 29 30 30 30 30 26 26 26 26 15 15 15 15 31 31 31 31 27 27 27 27 16 16 16 16 31 31 31 31 15 15 15 15 16 16 16 16 32 32 32 32 31 31 31 31 29 29 29 29 33 33 33 33 30 30 30 30 33 33 33 33 34 34 34 34 30 30 30 30 32 32 32 32 35 35 35 35 31 31 31 31 32 32 32 32 36 36 36 36 35 35 35 35 31 31 31 31 37 37 37 37 27 27 27 27 31 31 31 31 35 35 35 35 37 37 37 37 27 27 27 27 37 37 37 37 28 28 28 28 36 36 36 36 38 38 38 38 35 35 35 35 36 36 36 36 39 39 39 39 38 38 38 38 35 35 35 35 40 40 40 40 37 37 37 37 35 35 35 35 38 38 38 38 40 40 40 40 37 37 37 37 41 41 41 41 28 28 28 28 28 28 28 28 41 41 41 41 29 29 29 29 37 37 37 37 40 40 40 40 41 41 41 41 41 41 41 41 33 33 33 33 29 29 29 29 40 40 40 40 42 42 42 42 41 41 41 41 41 41 41 41 42 42 42 42 33 33 33 33 38 38 38 38 43 43 43 43 40 40 40 40 40 40 40 40 43 43 43 43 42 42 42 42 39 39 39 39 44 44 44 44 38 38 38 38 38 38 38 38 44 44 44 44 43 43 43 43 39 39 39 39 45 45 45 45 44 44 44 44 42 42 42 42 46 46 46 46 33 33 33 33 33 33 33 33 46 46 46 46 34 34 34 34 46 46 46 46 47 47 47 47 34 34 34 34 42 42 42 42 48 48 48 48 46 46 46 46 43 43 43 43 48 48 48 48 42 42 42 42 46 46 46 46 49 49 49 49 47 47 47 47 48 48 48 48 49 49 49 49 46 46 46 46 49 49 49 49 50 50 50 50 47 47 47 47 43 43 43 43 51 51 51 51 48 48 48 48 44 44 44 44 51 51 51 51 43 43 43 43 48 48 48 48 52 52 52 52 49 49 49 49 51 51 51 51 52 52 52 52 48 48 48 48 49 49 49 49 53 53 53 53 50 50 50 50 52 52 52 52 53 53 53 53 49 49 49 49 53 53 53 53 54 54 54 54 50 50 50 50 44 44 44 44 55 55 55 55 51 51 51 51 45 45 45 45 55 55 55 55 44 44 44 44 45 45 45 45 56 56 56 56 55 55 55 55 56 56 56 56 57 57 57 57 55 55 55 55 55 55 55 55 58 58 58 58 51 51 51 51 55 55 55 55 57 57 57 57 58 58 58 58 51 51 51 51 58 58 58 58 52 52 52 52 57 57 57 57 59 59 59 59 58 58 58 58 58 58 58 58 60 60 60 60 52 52 52 52 58 58 58 58 59 59 59 59 60 60 60 60 52 52 52 52 60 60 60 60 53 53 53 53 59 59 59 59 61 61 61 61 60 60 60 60 60 60 60 60 62 62 62 62 53 53 53 53 60 60 60 60 61 61 61 61 62 62 62 62 53 53 53 53 62 62 62 62 54 54 54 54 61 61 61 61 63 63 63 63 62 62 62 62 62 62 62 62 64 64 64 64 54 54 54 54 62 62 62 62 63 63 63 63 64 64 64 64 63 63 63 63 65 65 65 65 64 64 64 64 66 66 66 66 67 67 67 67 68 68 68 68 68 68 68 68 67 67 67 67 69 69 69 69 66 66 66 66 70 70 70 70 67 67 67 67 69 69 69 69 67 67 67 67 71 71 71 71 70 70 70 70 72 72 72 72 67 67 67 67 71 71 71 71 67 67 67 67 73 73 73 73 72 72 72 72 74 74 74 74 67 67 67 67 73 73 73 73 67 67 67 67 75 75 75 75 74 74 74 74 76 76 76 76 67 67 67 67 67 67 67 67 76 76 76 76 75 75 75 75 77 77 77 77 78 78 78 78 79 79 79 79 77 77 77 77 79 79 79 79 80 80 80 80 78 78 78 78 81 81 81 81 79 79 79 79 80 80 80 80 79 79 79 79 82 82 82 82 79 79 79 79 81 81 81 81 83 83 83 83 79 79 79 79 84 84 84 84 82 82 82 82 79 79 79 79 83 83 83 83 85 85 85 85 79 79 79 79 86 86 86 86 84 84 84 84 79 79 79 79 85 85 85 85 87 87 87 87 79 79 79 79 87 87 87 87 86 86 86 86</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1">
+      <skin source="#geom-BarrelFlower_Middle__DKBarrel_FX">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-joints">
+          <Name_array id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-joints-array" count="1">joint0</Name_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-bind_poses">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-bind_poses-array" count="16">1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-weights">
+          <float_array id="geom-BarrelFlower_Middle__DKBarrel_FX-skin1-weights-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-weights-array" count="1" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-bind_poses"/>
+        </joints>
+        <vertex_weights count="88">
+          <input semantic="JOINT" source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_lights>
+    <light id="EnvironmentAmbientLight" name="EnvironmentAmbientLight">
+      <technique_common>
+        <ambient>
+          <color>0 0 0</color>
+        </ambient>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="DKBarrel_FX_Alb_png">
+      <init_from>./images/DKBarrel_FX_Alb.png</init_from>
+    </image>
+    <image id="DKBarrel_FX_Nrm_png">
+      <init_from>./images/DKBarrel_FX_Nrm.png</init_from>
+    </image>
+    <image id="DKBarrel_FX_Spm_png">
+      <init_from>./images/DKBarrel_FX_Spm.png</init_from>
+    </image>
+  </library_images>
+  <library_visual_scenes>
+    <visual_scene id="MaxScene">
+      <node name="EnvironmentAmbientLight">
+        <instance_light url="#EnvironmentAmbientLight"/>
+      </node>
+      <node id="node-DKBarrel_FX01" name="DKBarrel_FX01" sid="joint0" type="JOINT">
+        <rotate>-1 0 0 -90</rotate>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+      <node id="node-BarrelFlower_Middle__DKBarrel_FX" name="BarrelFlower_Middle__DKBarrel_FX">
+        <instance_controller url="#geom-BarrelFlower_Middle__DKBarrel_FX-skin1">
+          <skeleton>#node-DKBarrel_FX01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="DKBarrel_FX" target="#DKBarrel_FX-material">
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+        <extra>
+          <technique profile="OpenCOLLADA">
+            <cast_shadows sid="cast_shadows" type="bool">1</cast_shadows>
+            <receive_shadows sid="receive_shadows" type="bool">1</receive_shadows>
+            <primary_visibility sid="primary_visibility" type="bool">1</primary_visibility>
+            <secondary_visibility sid="secondary_visibility" type="bool">1</secondary_visibility>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#MaxScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,3 @@
+If skyboxes have visible seams, please set textures' Wrap Mode to "Clamp".
+
+In demo scene, the Left and the Right keys control directions, the Up and the Down keys control moves and the Space key controls jump of the object.You can choose skyboxes by clicking on the icons. 

@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="PanelFlame_Alb">
+      <init_from>PanelFlame_Alb.png</init_from>
+    </image>
+    <image id="PanelFlame_Nrm">
+      <init_from>PanelFlame_Nrm.png</init_from>
+    </image>
+    <image id="PanelFlame_Spm">
+      <init_from>PanelFlame_Spm.png</init_from>
+    </image>
+    <image id="ef_dashboardLight_Spm">
+      <init_from>ef_dashboardLight_Spm.png</init_from>
+    </image>
+    <image id="ef_dashboardLight_Alb">
+      <init_from>ef_dashboardLight_Alb.png</init_from>
+    </image>
+    <image id="ef_dashboardOff_Nrm">
+      <init_from>ef_dashboardOff_Nrm.png</init_from>
+    </image>
+    <image id="ef_dashboardOff_Alb">
+      <init_from>ef_dashboardOff_Alb.png</init_from>
+    </image>
+    <image id="ef_dashboard02_Alb">
+      <init_from>ef_dashboard02_Alb.png</init_from>
+    </image>
+    <image id="ef_dashboard_Nrm">
+      <init_from>ef_dashboard_Nrm.png</init_from>
+    </image>
+    <image id="ef_dashboard01_Alb">
+      <init_from>ef_dashboard01_Alb.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="RRDashPanelFlame">
+      <instance_effect url="#Effect_RRDashPanelFlame" />
+    </material>
+    <material id="RRDashPanelLight">
+      <instance_effect url="#Effect_RRDashPanelLight" />
+    </material>
+    <material id="RRDashPanelOff">
+      <instance_effect url="#Effect_RRDashPanelOff" />
+    </material>
+    <material id="RRDashPanelOn">
+      <instance_effect url="#Effect_RRDashPanelOn" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_RRDashPanelFlame">
+      <profile_COMMON>
+        <newparam sid="surface_RRDashPanelFlame-diffuse">
+          <surface type="2D">
+            <init_from>PanelFlame_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelFlame-diffuse">
+          <sampler2D>
+            <source>surface_RRDashPanelFlame-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RRDashPanelFlame-bump">
+          <surface type="2D">
+            <init_from>PanelFlame_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelFlame-bump">
+          <sampler2D>
+            <source>surface_RRDashPanelFlame-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RRDashPanelFlame-specular">
+          <surface type="2D">
+            <init_from>PanelFlame_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelFlame-specular">
+          <sampler2D>
+            <source>surface_RRDashPanelFlame-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RRDashPanelFlame-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_RRDashPanelFlame-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_RRDashPanelFlame-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_RRDashPanelLight">
+      <profile_COMMON>
+        <newparam sid="surface_RRDashPanelLight-specular">
+          <surface type="2D">
+            <init_from>ef_dashboardLight_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelLight-specular">
+          <sampler2D>
+            <source>surface_RRDashPanelLight-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>CLAMP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RRDashPanelLight-diffuse">
+          <surface type="2D">
+            <init_from>ef_dashboardLight_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelLight-diffuse">
+          <sampler2D>
+            <source>surface_RRDashPanelLight-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <specular>
+              <texture texture="sampler_RRDashPanelLight-specular" texcoord="CHANNEL0" />
+            </specular>
+            <diffuse>
+              <texture texture="sampler_RRDashPanelLight-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_RRDashPanelOff">
+      <profile_COMMON>
+        <newparam sid="surface_RRDashPanelOff-diffuse">
+          <surface type="2D">
+            <init_from>ef_dashboardOff_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelOff-diffuse">
+          <sampler2D>
+            <source>surface_RRDashPanelOff-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RRDashPanelOff-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_RRDashPanelOn">
+      <profile_COMMON>
+        <newparam sid="surface_RRDashPanelOn-diffuse">
+          <surface type="2D">
+            <init_from>ef_dashboard02_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelOn-diffuse">
+          <sampler2D>
+            <source>surface_RRDashPanelOn-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_RRDashPanelOn-bump">
+          <surface type="2D">
+            <init_from>ef_dashboard_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_RRDashPanelOn-bump">
+          <sampler2D>
+            <source>surface_RRDashPanelOn-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_RRDashPanelOn-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_RRDashPanelOn-bump" texcoord="CHANNEL0" />
+            </bump>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="RRDashPanelFlame01__RRDashPanelFlame-mesh" name="RRDashPanelFlame01__RRDashPanelFlame">
+      <mesh>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-position">
+          <float_array id="RRDashPanelFlame01__RRDashPanelFlame-position-array" count="144">87.53208 0.7 -40.132 -87.5319 0.7 -40.132 86.90009 0 -39.5 -86.89991 0 -39.50024 -87.5319 0.7 -40.132 -87.5319 0.7 40.132 -86.89991 0 -39.50024 -86.89991 0 39.49993 94.64228 0.7 -47.242 94.6419 0.7 47.242 95.27412 0 -47.874 95.27404 0 47.874 87.53208 0.7 40.132 86.90009 0 39.5 -87.5319 0.7 40.132 -86.89991 0 39.49993 94.64228 0.7 -47.242 -94.6417 0.7 -47.242 87.53208 0.7 -40.132 -87.5319 0.7 -40.132 -94.64208 0.7 47.242 -87.5319 0.7 40.132 -94.6417 0.7 -47.242 -87.5319 0.7 -40.132 94.6419 0.7 47.242 87.53208 0.7 40.132 -94.64208 0.7 47.242 -87.5319 0.7 40.132 94.64228 0.7 -47.242 87.53208 0.7 -40.132 94.6419 0.7 47.242 87.53208 0.7 40.132 -95.27406 0 47.87402 95.27404 0 47.874 -94.64208 0.7 47.242 94.6419 0.7 47.242 86.90009 0 -39.5 86.90009 0 39.5 87.53208 0.7 -40.132 87.53208 0.7 40.132 95.27412 0 -47.874 -95.27372 0 -47.874 94.64228 0.7 -47.242 -94.6417 0.7 -47.242 -95.27372 0 -47.874 -95.27406 0 47.87402 -94.6417 0.7 -47.242 -94.64208 0.7 47.242</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-position-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-normal">
+          <float_array id="RRDashPanelFlame01__RRDashPanelFlame-normal-array" count="144">0 0.6692759 0.7416829 0 0.6692759 0.7416829 0 0.6692759 0.7416829 0 0.6692759 0.7416829 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0.7416829 0.6692759 0 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0.6692759 0.7416829 0 0.6692759 0.7416829 0 0.6692759 0.7416829 0 0.6692759 0.7416829 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 0 0.6692759 -0.7416829 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0 -0.7416829 0.6692759 0</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-normal-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-texcoord">
+          <float_array id="RRDashPanelFlame01__RRDashPanelFlame-texcoord-array" count="96">-0.6279756 0.8808658 1.644679 0.8808653 -0.6279756 1 1.644679 1 -0.05961606 0.8808739 1.092958 0.8808708 -0.05961606 1.000001 1.092958 1.000001 1.194218 0.1191243 -0.1608758 0.1191604 1.194218 -2.384186E-06 -0.1608758 2.264977E-06 1.64468 0.8808637 1.64468 1 -0.6279757 0.8808622 -0.6279757 1 -0.7242063 0.119131 1.740906 0.1191362 -0.6279756 0.8808658 1.644679 0.8808653 1.194219 0.1191256 1.092958 0.8808708 -0.160876 0.1191647 -0.05961606 0.8808739 1.740906 0.1191362 1.64468 0.8808637 -0.7242062 0.1191292 -0.6279757 0.8808622 1.194218 0.1191243 1.092958 0.8808708 -0.1608758 0.1191604 -0.05961569 0.88087 -0.7242062 2.264977E-06 1.740906 0 -0.7242062 0.1191292 1.740906 0.1191362 1.092958 1.000001 -0.05961569 1.000002 1.092958 0.8808708 -0.05961569 0.88087 -0.7242062 2.264977E-06 1.740906 0 -0.7242063 0.119131 1.740906 0.1191362 -0.160876 1.072884E-06 1.194219 -1.192093E-06 -0.160876 0.1191647 1.194219 0.1191256</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-texcoord-array" count="48" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RRDashPanelFlame01__RRDashPanelFlame-vertex">
+          <input semantic="POSITION" source="#RRDashPanelFlame01__RRDashPanelFlame-position" />
+        </vertices>
+        <triangles material="RRDashPanelFlame" count="24">
+          <input semantic="VERTEX" source="#RRDashPanelFlame01__RRDashPanelFlame-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RRDashPanelFlame01__RRDashPanelFlame-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RRDashPanelFlame01__RRDashPanelFlame-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 16 16 16 17 17 17 18 18 18 17 17 17 19 19 19 18 18 18 20 20 20 21 21 21 22 22 22 21 21 21 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 25 25 25 27 27 27 26 26 26 28 28 28 29 29 29 30 30 30 29 29 29 31 31 31 30 30 30 32 32 32 33 33 33 34 34 34 33 33 33 35 35 35 34 34 34 36 36 36 37 37 37 38 38 38 37 37 37 39 39 39 38 38 38 40 40 40 41 41 41 42 42 42 41 41 41 43 43 43 42 42 42 44 44 44 45 45 45 46 46 46 45 45 45 47 47 47 46 46 46 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="RRDashPanelLight01__RRDashPanelLight-mesh" name="RRDashPanelLight01__RRDashPanelLight">
+      <mesh>
+        <source id="RRDashPanelLight01__RRDashPanelLight-position">
+          <float_array id="RRDashPanelLight01__RRDashPanelLight-position-array" count="48">-87.45 0 39.75 87.45 0 39.75 -87.45 10 39.75 87.45 10 39.75 -87.45 10 -39.75 87.45 10 -39.75 -87.45 0 -39.75 87.45 0 -39.75 87.45 0 39.75 87.45 0 -39.75 87.45 10 39.75 87.45 10 -39.75 -87.45 0 -39.75 -87.45 0 39.75 -87.45 10 -39.75 -87.45 10 39.75</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-position-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelLight01__RRDashPanelLight-normal">
+          <float_array id="RRDashPanelLight01__RRDashPanelLight-normal-array" count="48">0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-normal-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelLight01__RRDashPanelLight-texcoord">
+          <float_array id="RRDashPanelLight01__RRDashPanelLight-texcoord-array" count="32">0 0 3 0 0 1 3 1 3 1 0 1 3 0 0 0 0 0 1 0 0 1 1 1 0 0 1 0 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-texcoord-array" count="16" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RRDashPanelLight01__RRDashPanelLight-vertex">
+          <input semantic="POSITION" source="#RRDashPanelLight01__RRDashPanelLight-position" />
+        </vertices>
+        <triangles material="RRDashPanelLight" count="8">
+          <input semantic="VERTEX" source="#RRDashPanelLight01__RRDashPanelLight-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RRDashPanelLight01__RRDashPanelLight-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RRDashPanelLight01__RRDashPanelLight-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 4 4 4 5 5 5 6 6 6 5 5 5 7 7 7 6 6 6 8 8 8 9 9 9 10 10 10 9 9 9 11 11 11 10 10 10 12 12 12 13 13 13 14 14 14 13 13 13 15 15 15 14 14 14 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="RRDashPanelOff01__RRDashPanelOff-mesh" name="RRDashPanelOff01__RRDashPanelOff">
+      <mesh>
+        <source id="RRDashPanelOff01__RRDashPanelOff-position">
+          <float_array id="RRDashPanelOff01__RRDashPanelOff-position-array" count="12">-87.68188 0.5 -40.13825 -87.68188 0.5 40.13794 87.68206 0.5 -40.13801 87.68206 0.5 40.13801</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOff01__RRDashPanelOff-normal">
+          <float_array id="RRDashPanelOff01__RRDashPanelOff-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOff01__RRDashPanelOff-texcoord">
+          <float_array id="RRDashPanelOff01__RRDashPanelOff-texcoord-array" count="8">2.002653 -0.004881144 2.002653 1.004881 -0.002652525 -0.004880071 -0.002652525 1.00488</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RRDashPanelOff01__RRDashPanelOff-vertex">
+          <input semantic="POSITION" source="#RRDashPanelOff01__RRDashPanelOff-position" />
+        </vertices>
+        <triangles material="RRDashPanelOff" count="2">
+          <input semantic="VERTEX" source="#RRDashPanelOff01__RRDashPanelOff-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RRDashPanelOff01__RRDashPanelOff-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RRDashPanelOff01__RRDashPanelOff-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="RRDashPanelOn01__RRDashPanelOn-mesh" name="RRDashPanelOn01__RRDashPanelOn">
+      <mesh>
+        <source id="RRDashPanelOn01__RRDashPanelOn-position">
+          <float_array id="RRDashPanelOn01__RRDashPanelOn-position-array" count="12">-87.68188 0.5 -40.13825 -87.68188 0.5 40.13794 87.68206 0.5 -40.13801 87.68206 0.5 40.13801</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-position-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOn01__RRDashPanelOn-normal">
+          <float_array id="RRDashPanelOn01__RRDashPanelOn-normal-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-normal-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOn01__RRDashPanelOn-texcoord">
+          <float_array id="RRDashPanelOn01__RRDashPanelOn-texcoord-array" count="8">2.002653 -0.004881144 2.002653 1.004881 -0.002652525 -0.004880071 -0.002652525 1.00488</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-texcoord-array" count="4" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RRDashPanelOn01__RRDashPanelOn-vertex">
+          <input semantic="POSITION" source="#RRDashPanelOn01__RRDashPanelOn-position" />
+        </vertices>
+        <triangles material="RRDashPanelOn" count="2">
+          <input semantic="VERTEX" source="#RRDashPanelOn01__RRDashPanelOn-vertex" offset="0" />
+          <input semantic="NORMAL" source="#RRDashPanelOn01__RRDashPanelOn-normal" offset="1" />
+          <input semantic="TEXCOORD" source="#RRDashPanelOn01__RRDashPanelOn-texcoord" offset="2" set="0" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_RRDashPanelFlame01__RRDashPanelFlame-mesh">
+      <skin source="#RRDashPanelFlame01__RRDashPanelFlame-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-mesh-joint">
+          <Name_array id="RRDashPanelFlame01__RRDashPanelFlame-mesh-joint-array" count="1">RRDashPanel01</Name_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-mesh-inv_bind_matrix">
+          <float_array id="RRDashPanelFlame01__RRDashPanelFlame-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelFlame01__RRDashPanelFlame-mesh-weight">
+          <float_array id="RRDashPanelFlame01__RRDashPanelFlame-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="48">
+          <input semantic="JOINT" source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RRDashPanelFlame01__RRDashPanelFlame-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_RRDashPanelLight01__RRDashPanelLight-mesh">
+      <skin source="#RRDashPanelLight01__RRDashPanelLight-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RRDashPanelLight01__RRDashPanelLight-mesh-joint">
+          <Name_array id="RRDashPanelLight01__RRDashPanelLight-mesh-joint-array" count="1">RRDashPanel01</Name_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelLight01__RRDashPanelLight-mesh-inv_bind_matrix">
+          <float_array id="RRDashPanelLight01__RRDashPanelLight-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelLight01__RRDashPanelLight-mesh-weight">
+          <float_array id="RRDashPanelLight01__RRDashPanelLight-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelLight01__RRDashPanelLight-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RRDashPanelLight01__RRDashPanelLight-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RRDashPanelLight01__RRDashPanelLight-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="16">
+          <input semantic="JOINT" source="#RRDashPanelLight01__RRDashPanelLight-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RRDashPanelLight01__RRDashPanelLight-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_RRDashPanelOff01__RRDashPanelOff-mesh">
+      <skin source="#RRDashPanelOff01__RRDashPanelOff-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RRDashPanelOff01__RRDashPanelOff-mesh-joint">
+          <Name_array id="RRDashPanelOff01__RRDashPanelOff-mesh-joint-array" count="1">RRDashPanel01</Name_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOff01__RRDashPanelOff-mesh-inv_bind_matrix">
+          <float_array id="RRDashPanelOff01__RRDashPanelOff-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOff01__RRDashPanelOff-mesh-weight">
+          <float_array id="RRDashPanelOff01__RRDashPanelOff-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOff01__RRDashPanelOff-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RRDashPanelOff01__RRDashPanelOff-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RRDashPanelOff01__RRDashPanelOff-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#RRDashPanelOff01__RRDashPanelOff-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RRDashPanelOff01__RRDashPanelOff-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_RRDashPanelOn01__RRDashPanelOn-mesh">
+      <skin source="#RRDashPanelOn01__RRDashPanelOn-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="RRDashPanelOn01__RRDashPanelOn-mesh-joint">
+          <Name_array id="RRDashPanelOn01__RRDashPanelOn-mesh-joint-array" count="1">RRDashPanel01</Name_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOn01__RRDashPanelOn-mesh-inv_bind_matrix">
+          <float_array id="RRDashPanelOn01__RRDashPanelOn-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RRDashPanelOn01__RRDashPanelOn-mesh-weight">
+          <float_array id="RRDashPanelOn01__RRDashPanelOn-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#RRDashPanelOn01__RRDashPanelOn-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#RRDashPanelOn01__RRDashPanelOn-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#RRDashPanelOn01__RRDashPanelOn-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="4">
+          <input semantic="JOINT" source="#RRDashPanelOn01__RRDashPanelOn-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#RRDashPanelOn01__RRDashPanelOn-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_RRDashPanel01" name="RRDashPanel01" sid="RRDashPanel01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <node id="Armature_RRDashLight" name="RRDashLight" sid="RRDashLight" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          </node>
+        </node>
+      </node>
+      <node id="RRDashPanelFlame01__RRDashPanelFlame" name="RRDashPanelFlame01__RRDashPanelFlame" type="NODE">
+        <instance_controller url="#Armature_RRDashPanelFlame01__RRDashPanelFlame-mesh">
+          <skeleton>#Armature_RRDashPanel01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RRDashPanelFlame" target="#RRDashPanelFlame" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="RRDashPanelLight01__RRDashPanelLight" name="RRDashPanelLight01__RRDashPanelLight" type="NODE">
+        <instance_controller url="#Armature_RRDashPanelLight01__RRDashPanelLight-mesh">
+          <skeleton>#Armature_RRDashPanel01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RRDashPanelLight" target="#RRDashPanelLight" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="RRDashPanelOff01__RRDashPanelOff" name="RRDashPanelOff01__RRDashPanelOff" type="NODE">
+        <instance_controller url="#Armature_RRDashPanelOff01__RRDashPanelOff-mesh">
+          <skeleton>#Armature_RRDashPanel01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RRDashPanelOff" target="#RRDashPanelOff" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+      <node id="RRDashPanelOn01__RRDashPanelOn" name="RRDashPanelOn01__RRDashPanelOn" type="NODE">
+        <instance_controller url="#Armature_RRDashPanelOn01__RRDashPanelOn-mesh">
+          <skeleton>#Armature_RRDashPanel01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="RRDashPanelOn" target="#RRDashPanelOn" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Hallow</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-03-18, commit time:12:34, hash:22a2853</authoring_tool>
+    </contributor>
+    <created>2019-04-06T14:18:23</created>
+    <modified>2019-04-06T14:18:23</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="ItemBoxFont_Alb__png" name="ItemBoxFont_Alb__png">
+      <init_from>ItemBoxFont_Alb%20.png</init_from>
+    </image>
+  </library_images>
+  <library_effects>
+    <effect id="Material__27-effect">
+      <profile_COMMON>
+        <newparam sid="ItemBoxFont_Alb__png-surface">
+          <surface type="2D">
+            <init_from>ItemBoxFont_Alb__png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="ItemBoxFont_Alb__png-sampler">
+          <sampler2D>
+            <source>ItemBoxFont_Alb__png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <blinn>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="ItemBoxFont_Alb__png-sampler" texcoord="geom-ItemBoxFont__M_ItemBoxFont2-map1"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0 0 0 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </blinn>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Material__27-material" name="Material__27">
+      <instance_effect url="#Material__27-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="ItemBoxFont__M_ItemBoxFont2-mesh" name="ItemBoxFont__M_ItemBoxFont2">
+      <mesh>
+        <source id="ItemBoxFont__M_ItemBoxFont2-mesh-positions">
+          <float_array id="ItemBoxFont__M_ItemBoxFont2-mesh-positions-array" count="24">-3.058594 -0.7915039 0 -3.943359 -7.542969 0 3.337891 -1.800781 0 3.380859 -8.117189 0 -3.828125 9.015625 0 -8.640625 2.576172 0 6.003906 7.621094 0 8.8125 -0.07507324 0</float_array>
+          <technique_common>
+            <accessor source="#ItemBoxFont__M_ItemBoxFont2-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ItemBoxFont__M_ItemBoxFont2-mesh-normals">
+          <float_array id="ItemBoxFont__M_ItemBoxFont2-mesh-normals-array" count="3">0 0 1</float_array>
+          <technique_common>
+            <accessor source="#ItemBoxFont__M_ItemBoxFont2-mesh-normals-array" count="1" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ItemBoxFont__M_ItemBoxFont2-mesh-map-0">
+          <float_array id="ItemBoxFont__M_ItemBoxFont2-mesh-map-0-array" count="36">0.3529412 0.4156862 0.2745098 0.04705882 0.6862745 0.3764706 0.2745098 0.04705882 0.6941177 0.01568627 0.6862745 0.3764706 0.282353 0.9843137 0.01568627 0.6156863 0.3529412 0.4156862 0.3529412 0.4156862 0.6862745 0.3764706 0.282353 0.9843137 0.282353 0.9843137 0.6862745 0.3764706 0.8352941 0.8980392 0.6862745 0.3764706 0.9921569 0.4784313 0.8352941 0.8980392</float_array>
+          <technique_common>
+            <accessor source="#ItemBoxFont__M_ItemBoxFont2-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ItemBoxFont__M_ItemBoxFont2-mesh-colors-geom-ItemBoxFont__M_ItemBoxFont2-map0" name="geom-ItemBoxFont__M_ItemBoxFont2-map0">
+          <float_array id="ItemBoxFont__M_ItemBoxFont2-mesh-colors-geom-ItemBoxFont__M_ItemBoxFont2-map0-array" count="54">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#ItemBoxFont__M_ItemBoxFont2-mesh-colors-geom-ItemBoxFont__M_ItemBoxFont2-map0-array" count="18" stride="3">
+              <param name="R" type="float"/>
+              <param name="G" type="float"/>
+              <param name="B" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ItemBoxFont__M_ItemBoxFont2-mesh-vertices">
+          <input semantic="POSITION" source="#ItemBoxFont__M_ItemBoxFont2-mesh-positions"/>
+        </vertices>
+        <polylist material="Material__27-material" count="6">
+          <input semantic="VERTEX" source="#ItemBoxFont__M_ItemBoxFont2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ItemBoxFont__M_ItemBoxFont2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ItemBoxFont__M_ItemBoxFont2-mesh-map-0" offset="2" set="0"/>
+          <input semantic="COLOR" source="#ItemBoxFont__M_ItemBoxFont2-mesh-colors-geom-ItemBoxFont__M_ItemBoxFont2-map0" offset="3" set="0"/>
+          <vcount>3 3 3 3 3 3 </vcount>
+          <p>0 0 0 0 1 0 1 1 2 0 2 2 1 0 3 3 3 0 4 4 2 0 5 5 4 0 6 6 5 0 7 7 0 0 8 8 0 0 9 9 2 0 10 10 4 0 11 11 4 0 12 12 2 0 13 13 6 0 14 14 2 0 15 15 7 0 16 16 6 0 17 17</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_ItemBoxFont__M_ItemBoxFont2-skin" name="Armature">
+      <skin source="#ItemBoxFont__M_ItemBoxFont2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-joints">
+          <Name_array id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-joints-array" count="1">ItemBoxFont</Name_array>
+          <technique_common>
+            <accessor source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-joints-array" count="1" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-bind_poses">
+          <float_array id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-bind_poses-array" count="16">1 0 0 0 0 1 0 0.5 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-bind_poses-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-weights">
+          <float_array id="Armature_ItemBoxFont__M_ItemBoxFont2-skin-weights-array" count="8">1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-weights-array" count="8" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="8">
+          <input semantic="JOINT" source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_ItemBoxFont__M_ItemBoxFont2-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Default" name="Default">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="ItemBoxFont" name="ItemBoxFont" sid="ItemBoxFont" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 -0.5 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="ItemBoxFont__M_ItemBoxFont2" name="ItemBoxFont__M_ItemBoxFont2" type="NODE">
+        <translate sid="location">0 0 0</translate>
+        <rotate sid="rotationZ">0 0 1 0</rotate>
+        <rotate sid="rotationY">0 1 0 0</rotate>
+        <rotate sid="rotationX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_controller url="#Armature_ItemBoxFont__M_ItemBoxFont2-skin">
+          <skeleton>#ItemBoxFont</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material__27-material" target="#Material__27-material">
+                <bind_vertex_input semantic="geom-ItemBoxFont__M_ItemBoxFont2-map1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Default"/>
+  </scene>
+</COLLADA>

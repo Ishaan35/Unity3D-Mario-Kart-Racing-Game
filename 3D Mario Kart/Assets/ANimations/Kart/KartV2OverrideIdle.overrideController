@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: KartV2OverrideIdle
+  m_Controller: {fileID: 9100000, guid: 142a74d42c6e9f84d85db1936e215f5d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 5a808e625ad0ac3468eb59ea5d99f1ee, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ff811e5235b031b42aebc6645b42bd41, type: 2}

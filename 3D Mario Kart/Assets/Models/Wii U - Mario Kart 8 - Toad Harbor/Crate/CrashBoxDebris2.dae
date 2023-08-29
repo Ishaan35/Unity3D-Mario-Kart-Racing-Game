@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset />
+  <library_images>
+    <image id="CrashBox_FX_Alb">
+      <init_from>CrashBox_FX_Alb.png</init_from>
+    </image>
+    <image id="CrashBox_FX_Nrm">
+      <init_from>CrashBox_FX_Nrm.png</init_from>
+    </image>
+    <image id="CrashBox_FX_Spm">
+      <init_from>CrashBox_FX_Spm.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="M_CrashBox_FX">
+      <instance_effect url="#Effect_M_CrashBox_FX" />
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Effect_M_CrashBox_FX">
+      <profile_COMMON>
+        <newparam sid="surface_M_CrashBox_FX-diffuse">
+          <surface type="2D">
+            <init_from>CrashBox_FX_Alb</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_CrashBox_FX-diffuse">
+          <sampler2D>
+            <source>surface_M_CrashBox_FX-diffuse</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_CrashBox_FX-bump">
+          <surface type="2D">
+            <init_from>CrashBox_FX_Nrm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_CrashBox_FX-bump">
+          <sampler2D>
+            <source>surface_M_CrashBox_FX-bump</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <newparam sid="surface_M_CrashBox_FX-specular">
+          <surface type="2D">
+            <init_from>CrashBox_FX_Spm</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="sampler_M_CrashBox_FX-specular">
+          <sampler2D>
+            <source>surface_M_CrashBox_FX-specular</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <diffuse>
+              <texture texture="sampler_M_CrashBox_FX-diffuse" texcoord="CHANNEL0" />
+            </diffuse>
+            <bump>
+              <texture texture="sampler_M_CrashBox_FX-bump" texcoord="CHANNEL0" />
+            </bump>
+            <specular>
+              <texture texture="sampler_M_CrashBox_FX-specular" texcoord="CHANNEL0" />
+            </specular>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="CrashBox_FX01__M_CrashBox_FX-mesh" name="CrashBox_FX01__M_CrashBox_FX">
+      <mesh>
+        <source id="CrashBox_FX01__M_CrashBox_FX-position">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-position-array" count="90">0.1563721 -3.212891 -0.4609375 0.6899414 -2.917969 -0.4609375 0.1563721 -3.212891 0.4609375 0.6899414 -2.917969 0.4609375 0.1563721 -3.212891 0.4609375 0.6899414 -2.917969 0.4609375 -0.6899414 1.094727 0.4609375 0.6899414 2.039063 0.4609375 -0.392334 3.212891 0.4609375 -0.6899414 1.094727 0.4609375 -0.392334 3.212891 0.4609375 -0.6899414 1.094727 -0.4609375 -0.392334 3.212891 -0.4609375 -0.392334 3.212891 0.4609375 0.6899414 2.039063 0.4609375 -0.392334 3.212891 -0.4609375 0.6899414 2.039063 -0.4609375 -0.392334 3.212891 -0.4609375 0.6899414 2.039063 -0.4609375 -0.6899414 1.094727 -0.4609375 0.1563721 -3.212891 -0.4609375 0.6899414 -2.917969 -0.4609375 0.6899414 -2.917969 -0.4609375 0.6899414 2.039063 -0.4609375 0.6899414 -2.917969 0.4609375 0.6899414 2.039063 0.4609375 0.1563721 -3.212891 0.4609375 -0.6899414 1.094727 0.4609375 0.1563721 -3.212891 -0.4609375 -0.6899414 1.094727 -0.4609375</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-position-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CrashBox_FX01__M_CrashBox_FX-normal">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-normal-array" count="90">0.4853229 -0.8747554 0 0.4853229 -0.8747554 0 0.4853229 -0.8747554 0 0.4853229 -0.8747554 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.9902152 0.1389433 0 -0.5655577 0.8258317 0 -0.9902152 0.1389433 0 -0.5655577 0.8258317 0 -0.5655577 0.8258317 0 0.7358121 0.6771037 0 -0.5655577 0.8258317 0 0.7358121 0.6771037 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 -0.9804305 -0.1937378 0 -0.9804305 -0.1937378 0 -0.9804305 -0.1937378 0 -0.9804305 -0.1937378 0</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-normal-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CrashBox_FX01__M_CrashBox_FX-color">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-color-array" count="120">1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-color-array" count="30" stride="4">
+              <param name="R" type="float" />
+              <param name="G" type="float" />
+              <param name="B" type="float" />
+              <param name="A" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CrashBox_FX01__M_CrashBox_FX-texcoord">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-texcoord-array" count="60">0.8785229 0.2488136 0.940383 0.2488136 0.8785229 0.1419547 0.940383 0.1419547 0.5389487 0.03538567 0.5966125 0.06736857 0.4475318 0.5007401 0.5966125 0.6027619 0.4796979 0.7296559 0.2162509 0.5022659 0.2162509 0.7274433 0.2999924 0.5022659 0.2999924 0.7274433 0.03353933 0.05244523 0.1913634 0.05244523 0.03353933 0.12607 0.1913634 0.12607 0.821622 0.9507896 0.9385366 0.8238956 0.789456 0.7218891 0.8808728 0.2565347 0.9385366 0.2885176 0.7125658 0.06718546 0.7125658 0.6045472 0.6273594 0.06718546 0.6273594 0.6045472 0.2162509 0.04451054 0.2162509 0.5022659 0.2999924 0.04451054 0.2999924 0.5022659</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-texcoord-array" count="30" stride="2">
+              <param name="S" type="float" />
+              <param name="T" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="CrashBox_FX01__M_CrashBox_FX-vertex">
+          <input semantic="POSITION" source="#CrashBox_FX01__M_CrashBox_FX-position" />
+        </vertices>
+        <triangles material="M_CrashBox_FX" count="16">
+          <input semantic="VERTEX" source="#CrashBox_FX01__M_CrashBox_FX-vertex" offset="0" />
+          <input semantic="NORMAL" source="#CrashBox_FX01__M_CrashBox_FX-normal" offset="1" />
+          <input semantic="COLOR" source="#CrashBox_FX01__M_CrashBox_FX-color" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#CrashBox_FX01__M_CrashBox_FX-texcoord" offset="3" set="0" />
+          <p>0 0 0 0 1 1 1 1 2 2 2 2 1 1 1 1 3 3 3 3 2 2 2 2 4 4 4 4 5 5 5 5 6 6 6 6 5 5 5 5 7 7 7 7 6 6 6 6 7 7 7 7 8 8 8 8 6 6 6 6 9 9 9 9 10 10 10 10 11 11 11 11 10 10 10 10 12 12 12 12 11 11 11 11 13 13 13 13 14 14 14 14 15 15 15 15 14 14 14 14 16 16 16 16 15 15 15 15 17 17 17 17 18 18 18 18 19 19 19 19 20 20 20 20 19 19 19 19 21 21 21 21 19 19 19 19 18 18 18 18 21 21 21 21 22 22 22 22 23 23 23 23 24 24 24 24 23 23 23 23 25 25 25 25 24 24 24 24 26 26 26 26 27 27 27 27 28 28 28 28 27 27 27 27 29 29 29 29 28 28 28 28 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_CrashBox_FX01__M_CrashBox_FX-mesh">
+      <skin source="#CrashBox_FX01__M_CrashBox_FX-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="CrashBox_FX01__M_CrashBox_FX-mesh-joint">
+          <Name_array id="CrashBox_FX01__M_CrashBox_FX-mesh-joint-array" count="1">CrashBox_FX01</Name_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-mesh-joint-array" count="1" stride="1">
+              <param name="JOINT" type="name" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CrashBox_FX01__M_CrashBox_FX-mesh-inv_bind_matrix">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-mesh-inv_bind_matrix-array" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-mesh-inv_bind_matrix-array" count="1" stride="16">
+              <param name="TRANSFORM" type="float4x4" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CrashBox_FX01__M_CrashBox_FX-mesh-weight">
+          <float_array id="CrashBox_FX01__M_CrashBox_FX-mesh-weight-array" count="1">1</float_array>
+          <technique_common>
+            <accessor source="#CrashBox_FX01__M_CrashBox_FX-mesh-weight-array" count="1" stride="1">
+              <param name="WEIGHT" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#CrashBox_FX01__M_CrashBox_FX-mesh-joint" />
+          <input semantic="INV_BIND_MATRIX" source="#CrashBox_FX01__M_CrashBox_FX-mesh-inv_bind_matrix" />
+        </joints>
+        <vertex_weights count="30">
+          <input semantic="JOINT" source="#CrashBox_FX01__M_CrashBox_FX-mesh-joint" offset="0" />
+          <input semantic="WEIGHT" source="#CrashBox_FX01__M_CrashBox_FX-mesh-weight" offset="1" />
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <node id="Armature_CrashBox_FX01" name="CrashBox_FX01" sid="CrashBox_FX01" type="JOINT">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        </node>
+      </node>
+      <node id="CrashBox_FX01__M_CrashBox_FX" name="CrashBox_FX01__M_CrashBox_FX" type="NODE">
+        <instance_controller url="#Armature_CrashBox_FX01__M_CrashBox_FX-mesh">
+          <skeleton>#Armature_CrashBox_FX01</skeleton>
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="M_CrashBox_FX" target="#M_CrashBox_FX" />
+              <bind_vertex_input semantic="CHANNEL0" input_semantic="TEXCOORD" input_set="0" />
+              <bind_vertex_input semantic="CHANNEL1" input_semantic="TEXCOORD" input_set="1" />
+              <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="2" />
+            </technique_common>
+          </bind_material>
+        </instance_controller>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,46 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl Body__m_Body
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd luigi_alb.png
+map_Disp luigi_nrm.png
+
+newmtl Body__m_Eye
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd luigieye_alb.0.png
+map_Disp luigieye_nrm.0.png
+
+newmtl Pupil__m_PupilL
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd luigipupil_alb.png
+map_Disp luigipupil_nrm.png
+
+newmtl Pupil__m_PupilR
+Ns -1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd luigipupil_alb.png
+map_Disp luigipupil_nrm.png
