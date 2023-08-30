@@ -12,7 +12,7 @@
 
 Welcome to my open-source 3D kart racing game, created using C#, the .NET Framework, and Unity3D. This project remains popular with an active community on both GitHub and my YouTube Channel: Ishaan35.
 
-I started this as a way to gain experience with C#, and learn what it is like to manage a large project. It took off when early videos gained traction, and the project has grown as I continued to work on it for over two years, with 850 YouTube subscribers. 
+I started this as a way to gain experience with C#, and learn what it is like to manage a large project. It took off when early videos gained traction, and the project has grown with positive community feedback, as I continued to work on it for over two years while gaining over 850 YouTube subscribers. 
 
 I also decided to create this game as I couldn't find any open-source kart racing games that utilize similar physics to the very popular kart racing game, Mario Kart 8, and I wanted to change that with a challenge for myself.
 
