@@ -112,6 +112,3 @@ Playable Build Link: https://drive.google.com/file/d/1YZ2OqAirBQlzf0WjMv1-zO6F59
 
 
 
-FULL PROJECT DOWNLOAD: https://drive.google.com/file/d/16XfmmUwKhTlESbEOm70gqZQ0PQQe2iJf/view    (a few scene files were too large to fit on GitHub)
-
-
