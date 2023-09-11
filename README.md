@@ -45,8 +45,9 @@ This project is currently in development. I will be maintaining it for any major
 ## Usage
 
 1. Download Unity version 2021.3.4f1 LTS or higher. LTS versions are always preferred for longer-term support of existing features used in the project.
-2. Once downloaded, clone this GitHub repository, and open the root directory in Unity Hub as a project. I did not provide the library folder, so the first-time import may take a while.
-3. Once in, you should be able to navigate to the scenes folder and view the different tracks. If you encounter errors or see unrendered pink meshes, try the following: 
+2. Download Blender 2.79 or higher as Unity will need to import some .blend file assets.
+3. Once downloaded, clone this GitHub repository, and open the root directory in Unity Hub as a project. I did not provide the library folder, so the first-time import may take a while.
+4. Once in, you should be able to navigate to the scenes folder and view the different tracks. If you encounter errors or see unrendered pink meshes, try the following: 
 	• Ensure the latest version of the Universal Render Pipeline and Shadergraph is installed as a package in the Unity Package Manager. After installing, if it does not work, delete the library folder and re-open the project.
 
 	• Make sure the version of Unity is LTS and at least version 2021.3.4f1.
