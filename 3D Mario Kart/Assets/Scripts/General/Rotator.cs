@@ -2,16 +2,14 @@
 using System.Collections;
 [ExecuteInEditMode]
 public class Rotator : MonoBehaviour {
-	public float Rate = .25f;
-	public bool rotateVertically = true;
-	public bool rotateinEditor = false;
+	[SerialiseField] private float Rate = .25f;
+	[SerialiseField] private bool rotateVertically = true;
+	[SerialiseField] private bool rotateinEditor = false;
 	// Use this for initialization
-	void Start () {
 	
-	}
 	
 	// Update is called once per frame
-	void Update () {
+	private void Update () {
 
 		if(Application.isPlaying){
 			if(rotateVertically)
@@ -21,7 +19,7 @@ public class Rotator : MonoBehaviour {
 
 		}
 	}
-	void OnRenderObject(){
+	public void OnRenderObject(){
 		if(!Application.isPlaying && rotateinEditor){
 			if(rotateVertically)
 				gameObject.transform.RotateAround (transform.position,transform.up,Rate*Time.deltaTime*60);
